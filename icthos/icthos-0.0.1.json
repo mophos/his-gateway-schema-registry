@@ -6,13 +6,13 @@
             "table_name": "ovst",
             "type": "DATE",
             "query": null,
-            "field": "vstdate"
+            "field": "where vstdate between '##START_DATE' and '##END_DATE'"
         },
         {
             "table_name": "oapp",
             "type": "DATE",
             "query": null,
-            "field": ["vstdate","entry_date"]
+            "field": "where vstdate between '##START_DATE' and '##END_DATE' or vstdate between '##START_DATE' and '##END_DATE'"
         },
         {
             "table_name": "patient",
@@ -23,7 +23,7 @@
         {
             "table_name": "ovst_vaccine",
             "type": "QUERY",
-            "query": "select * from ovst as o join ovst_vaccine as v on v.vn = o.vn where o.vstdate between ##START_DATE and ##END_DATE or o.vstdate between ##START_DATE and ##END_DATE ",
+            "query": "select * from ovst as o join ovst_vaccine as v on v.vn = o.vn where o.vstdate between '##START_DATE' and '##END_DATE' or o.vstdate between '##START_DATE' and '##END_DATE'",
             "field": null
         }
     ]
