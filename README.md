@@ -1,0 +1,1 @@
+# his-gateway-schema-registry
