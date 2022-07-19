@@ -1,1 +1,30 @@
-{"schema":"icthos","version":"0.0.1","tables":[{"table_name":"person","type":"manual","query":"","filde":""},{"table_name":"patient","type":"manual","query":"","filde":""}]}
+{
+    "schema": "icthos",
+    "version": "0.0.1",
+    "tables": [
+        {
+            "table_name": "ovst",
+            "type": "date",
+            "query": "",
+            "filde": "vstdate"
+        },
+        {
+            "table_name": "oapp",
+            "type": "date",
+            "query": "",
+            "filde": ["vstdate","entry_date"]
+        },
+        {
+            "table_name": "patient",
+            "type": "manual",
+            "query": "",
+            "filde": ""
+        },
+        {
+            "table_name": "ovst_vaccine",
+            "type": "date",
+            "query": "select ov.* from ovst as v join ovst_vaccine as ov on ov.vn = v.vn",
+            "filde": "vstdate"
+        }
+    ]
+}
