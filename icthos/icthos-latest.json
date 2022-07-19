@@ -5,26 +5,26 @@
         {
             "table_name": "ovst",
             "type": "date",
-            "query": "",
+            "query": null,
             "filde": "vstdate"
         },
         {
             "table_name": "oapp",
             "type": "date",
-            "query": "",
+            "query": null,
             "filde": "vstdate,entry_date"
         },
         {
             "table_name": "patient",
-            "type": "manual",
-            "query": "",
-            "filde": ""
+            "type": "all",
+            "query": null,
+            "filde": null
         },
         {
             "table_name": "ovst_vaccine",
-            "type": "date",
-            "query": "select ov.* from ovst as v join ovst_vaccine as ov on ov.vn = v.vn",
-            "filde": "vstdate"
+            "type": "query",
+            "query": "select * from ovst as o join ovst_vaccine as v on v.vn = o.vn where o.vstdate between ##TIME_START and ##TIME_EN",
+            "filde": null
         }
     ]
 }
