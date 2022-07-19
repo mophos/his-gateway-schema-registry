@@ -4,26 +4,26 @@
     "tables": [
         {
             "table_name": "ovst",
-            "type": "date",
+            "type": "DATE",
             "query": null,
             "field": "vstdate"
         },
         {
             "table_name": "oapp",
-            "type": "date",
+            "type": "DATE",
             "query": null,
             "field": ["vstdate","entry_date"]
         },
         {
             "table_name": "patient",
-            "type": "all",
+            "type": "ALL",
             "query": null,
             "field": null
         },
         {
             "table_name": "ovst_vaccine",
-            "type": "query",
-            "query": "select * from ovst as o join ovst_vaccine as v on v.vn = o.vn where o.vstdate between ##TIME_START and ##TIME_EN",
+            "type": "QUERY",
+            "query": "select * from ovst as o join ovst_vaccine as v on v.vn = o.vn where o.vstdate between ##START_DATE and ##END_DATE",
             "field": null
         }
     ]
