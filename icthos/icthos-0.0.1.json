@@ -6,25 +6,25 @@
             "table_name": "ovst",
             "type": "date",
             "query": null,
-            "filde": "vstdate"
+            "field": "vstdate"
         },
         {
             "table_name": "oapp",
             "type": "date",
             "query": null,
-            "filde": ["vstdate","entry_date"]
+            "field": ["vstdate","entry_date"]
         },
         {
             "table_name": "patient",
             "type": "all",
             "query": null,
-            "filde": null
+            "field": null
         },
         {
             "table_name": "ovst_vaccine",
             "type": "query",
             "query": "select * from ovst as o join ovst_vaccine as v on v.vn = o.vn where o.vstdate between ##TIME_START and ##TIME_EN",
-            "filde": null
+            "field": null
         }
     ]
 }
