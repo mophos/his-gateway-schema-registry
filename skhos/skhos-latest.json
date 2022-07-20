@@ -1,1 +1,131 @@
-{"schema":"skhos","version":"0.0.1","tables":[{"table_name":"doctor_operation","type":"manual","query":"","filde":""},{"table_name":"drugitems","type":"manual","query":"","filde":""},{"table_name":"drugunits","type":"manual","query":"","filde":""},{"table_name":"drugusage","type":"manual","query":"","filde":""},{"table_name":"drug_stock_company","type":"manual","query":"","filde":""},{"table_name":"hospcode","type":"manual","query":"","filde":""},{"table_name":"icd101","type":"manual","query":"","filde":""},{"table_name":"icd9cm1","type":"manual","query":"","filde":""},{"table_name":"kskdocument","type":"manual","query":"","filde":""},{"table_name":"lab_hidden","type":"manual","query":"","filde":""},{"table_name":"lab_items","type":"manual","query":"","filde":""},{"table_name":"lab_items_group","type":"manual","query":"","filde":""},{"table_name":"lab_lccode","type":"manual","query":"","filde":""},{"table_name":"lab_order","type":"manual","query":"","filde":""},{"table_name":"opdscreen","type":"manual","query":"","filde":""},{"table_name":"opitemrece","type":"manual","query":"","filde":""},{"table_name":"opitemrece_lot_company","type":"manual","query":"","filde":""},{"table_name":"ovst","type":"manual","query":"","filde":""},{"table_name":"ovstdiag","type":"manual","query":"","filde":""},{"table_name":"patient","type":"manual","query":"","filde":""},{"table_name":"pttype","type":"manual","query":"","filde":""},{"table_name":"referin","type":"manual","query":"","filde":""},{"table_name":"referout","type":"manual","query":"","filde":""},{"table_name":"spclty","type":"manual","query":"","filde":""},{"table_name":"visit_pttype","type":"manual","query":"","filde":""}]}
+{
+	"schema": "skhos",
+	"version": "0.0.1",
+	"tables": [
+		{
+			"table_name": "doctor_operation",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "drugitems",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "drugunits",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "drugusage",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "drug_stock_company",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "hospcode",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "icd101",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "icd9cm1",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "kskdocument",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "lab_hidden",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "lab_items",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "lab_items_group",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "lab_lccode",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "lab_order",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "opdscreen",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "opitemrece",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "opitemrece_lot_company",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "ovst",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "ovstdiag",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "patient",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "pttype",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "referin",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "referout",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "spclty",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "visit_pttype",
+			"type": "ALL",
+			"query": null
+		}
+	]
+}

@@ -1,30 +1,16 @@
 {
-    "schema": "icthos",
-    "version": "0.0.1",
-    "tables": [
-        {
-            "table_name": "ovst",
-            "type": "DATE",
-            "query": null,
-            "field": "where vstdate between '##START_DATE' and '##END_DATE'"
-        },
-        {
-            "table_name": "oapp",
-            "type": "DATE",
-            "query": null,
-            "field": "where vstdate between '##START_DATE' and '##END_DATE' or entry_date between '##START_DATE' and '##END_DATE'"
-        },
-        {
-            "table_name": "patient",
-            "type": "ALL",
-            "query": null,
-            "field": null
-        },
-        {
-            "table_name": "ovst_vaccine",
-            "type": "QUERY",
-            "query": "select v.* from ovst as o join ovst_vaccine as v on v.vn = o.vn where o.vstdate between '##START_DATE' and '##END_DATE' or o.vstdate between '##START_DATE' and '##END_DATE'",
-            "field": null
-        }
-    ]
+	"schema": "icthos",
+	"version": "0.0.1",
+	"tables": [
+		{
+			"table_name": "person",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "patient",
+			"type": "ALL",
+			"query": null
+		}
+	]
 }

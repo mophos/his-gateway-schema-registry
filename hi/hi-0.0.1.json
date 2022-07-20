@@ -1,624 +1,521 @@
 {
-    "schema": "hi",
-    "version": "0.0.1",
-    "tables": [
-        {
-            "table_name": "accident",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "allergy",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "anc",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "cdt2",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "child",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "chospital",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "chronic",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "chronicfu",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "cln",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "code506p",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "community_activity",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "community_service",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "dchstts",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "dchtype",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "dct",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "dentist",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "disability",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "dt",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "dtdx",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "dtt_grp",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "emergency",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "epi",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "fp",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "holiday",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "home",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "hpt",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "icd101",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "icd9cm",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "idpm",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "income",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "incoth",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "inspt",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "insure",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "ioprt",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "iprsc",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "ipt",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "iptdx",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "lab",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "lablabel",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "labresult",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "labtype",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "lbbk",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "lr",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "l_aeplace",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "l_aetype",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "l_aptype",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "l_aptype_icd",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "l_bdoctor",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "l_bplace",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "l_btype",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "l_drugs_unit",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "l_hiv",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "l_income",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "l_labmapping",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "l_macro",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "l_maplab",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "l_micro",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "l_ocupation",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "l_syndrom",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "male",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "meditem",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "medusage",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "ntnlty",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "nutrition",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "oapp",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "oprt",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "optriage",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "orfri",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "orfro",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "ovst",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "ovstdx",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "phrmcst",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "pillness",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "prcd",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "prsc",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "prscdt",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "pt",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "pttype",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "rcpt",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "rfrcs",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "rlgn",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "screen",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "service_type",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "setup",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "sign",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "spclty",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "specialpp",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "symptm",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "symp_d",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "typearea",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "vaccine",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "village",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "visitanc",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "visitdental",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "visitdiagtext",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "visitepi",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "visitgfr",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "visitlabfu",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "visitlabor",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "visitpostnatal",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "xdose",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "xray",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        },
-        {
-            "table_name": "xryrgt",
-            "type": "manual",
-            "query": "",
-            "filde": ""
-        }
-    ]
+	"schema": "hi",
+	"version": "0.0.1",
+	"tables": [
+		{
+			"table_name": "accident",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "allergy",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "anc",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "cdt2",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "child",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "chospital",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "chronic",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "chronicfu",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "cln",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "code506p",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "community_activity",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "community_service",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "dchstts",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "dchtype",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "dct",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "dentist",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "disability",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "dt",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "dtdx",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "dtt_grp",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "emergency",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "epi",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "fp",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "holiday",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "home",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "hpt",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "icd101",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "icd9cm",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "idpm",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "income",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "incoth",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "inspt",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "insure",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "ioprt",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "iprsc",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "ipt",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "iptdx",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "lab",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "lablabel",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "labresult",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "labtype",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "lbbk",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "lr",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "l_aeplace",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "l_aetype",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "l_aptype",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "l_aptype_icd",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "l_bdoctor",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "l_bplace",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "l_btype",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "l_drugs_unit",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "l_hiv",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "l_income",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "l_labmapping",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "l_macro",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "l_maplab",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "l_micro",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "l_ocupation",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "l_syndrom",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "male",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "meditem",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "medusage",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "ntnlty",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "nutrition",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "oapp",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "oprt",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "optriage",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "orfri",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "orfro",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "ovst",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "ovstdx",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "phrmcst",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "pillness",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "prcd",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "prsc",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "prscdt",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "pt",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "pttype",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "rcpt",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "rfrcs",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "rlgn",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "screen",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "service_type",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "setup",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "sign",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "spclty",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "specialpp",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "symptm",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "symp_d",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "typearea",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "vaccine",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "village",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "visitanc",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "visitdental",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "visitdiagtext",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "visitepi",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "visitgfr",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "visitlabfu",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "visitlabor",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "visitpostnatal",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "xdose",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "xray",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "xryrgt",
+			"type": "ALL",
+			"query": null
+		}
+	]
 }

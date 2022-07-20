@@ -1,1 +1,1131 @@
-{"schema":"hosxppcuxe","version":"0.0.1","tables":[{"table_name":"accident_person_type","type":"manual","query":"","filde":""},{"table_name":"accident_place_type","type":"manual","query":"","filde":""},{"table_name":"accident_transport_type","type":"manual","query":"","filde":""},{"table_name":"allergy_group","type":"manual","query":"","filde":""},{"table_name":"allergy_relation","type":"manual","query":"","filde":""},{"table_name":"allergy_result","type":"manual","query":"","filde":""},{"table_name":"allergy_seriousness","type":"manual","query":"","filde":""},{"table_name":"an_stat","type":"manual","query":"","filde":""},{"table_name":"baby_development_list","type":"manual","query":"","filde":""},{"table_name":"clinic","type":"manual","query":"","filde":""},{"table_name":"clinicmember","type":"manual","query":"","filde":""},{"table_name":"clinicmember_cormobidity_eye_screen","type":"manual","query":"","filde":""},{"table_name":"clinicmember_cormobidity_foot_screen","type":"manual","query":"","filde":""},{"table_name":"clinicmember_cormobidity_screen","type":"manual","query":"","filde":""},{"table_name":"clinic_member_status","type":"manual","query":"","filde":""},{"table_name":"clinic_persist_icd","type":"manual","query":"","filde":""},{"table_name":"clinic_visit","type":"manual","query":"","filde":""},{"table_name":"cm_dm_cmbty_screen","type":"manual","query":"","filde":""},{"table_name":"community_activity_service","type":"manual","query":"","filde":""},{"table_name":"dchstts","type":"manual","query":"","filde":""},{"table_name":"dchtype","type":"manual","query":"","filde":""},{"table_name":"death","type":"manual","query":"","filde":""},{"table_name":"dental_care","type":"manual","query":"","filde":""},{"table_name":"diagtype","type":"manual","query":"","filde":""},{"table_name":"dmht_eye_screen_cataract","type":"manual","query":"","filde":""},{"table_name":"dmht_eye_screen_result","type":"manual","query":"","filde":""},{"table_name":"dmht_foot_screen_result","type":"manual","query":"","filde":""},{"table_name":"dmht_foot_screen_ulcer","type":"manual","query":"","filde":""},{"table_name":"doctor","type":"manual","query":"","filde":""},{"table_name":"doctor_operation","type":"manual","query":"","filde":""},{"table_name":"drugitems","type":"manual","query":"","filde":""},{"table_name":"drugitems_charge_list","type":"manual","query":"","filde":""},{"table_name":"drugusage","type":"manual","query":"","filde":""},{"table_name":"dtmain","type":"manual","query":"","filde":""},{"table_name":"dtmain_area","type":"manual","query":"","filde":""},{"table_name":"dttm","type":"manual","query":"","filde":""},{"table_name":"education","type":"manual","query":"","filde":""},{"table_name":"epi_vaccine","type":"manual","query":"","filde":""},{"table_name":"er_emergency_type","type":"manual","query":"","filde":""},{"table_name":"er_nursing_detail","type":"manual","query":"","filde":""},{"table_name":"er_nursing_visit_type","type":"manual","query":"","filde":""},{"table_name":"er_oper_code","type":"manual","query":"","filde":""},{"table_name":"er_oper_code_area","type":"manual","query":"","filde":""},{"table_name":"er_regist","type":"manual","query":"","filde":""},{"table_name":"er_regist_oper","type":"manual","query":"","filde":""},{"table_name":"er_regist_oper_doctor","type":"manual","query":"","filde":""},{"table_name":"health_med_doctor","type":"manual","query":"","filde":""},{"table_name":"health_med_operation_code","type":"manual","query":"","filde":""},{"table_name":"health_med_operation_item","type":"manual","query":"","filde":""},{"table_name":"health_med_operation_type","type":"manual","query":"","filde":""},{"table_name":"health_med_organ","type":"manual","query":"","filde":""},{"table_name":"health_med_provider","type":"manual","query":"","filde":""},{"table_name":"health_med_service","type":"manual","query":"","filde":""},{"table_name":"house","type":"manual","query":"","filde":""},{"table_name":"house_survey_garbage","type":"manual","query":"","filde":""},{"table_name":"house_survey_summary","type":"manual","query":"","filde":""},{"table_name":"icd101","type":"manual","query":"","filde":""},{"table_name":"icd10_nhso","type":"manual","query":"","filde":""},{"table_name":"icd9cm1","type":"manual","query":"","filde":""},{"table_name":"icd9cm_price","type":"manual","query":"","filde":""},{"table_name":"incith","type":"manual","query":"","filde":""},{"table_name":"income","type":"manual","query":"","filde":""},{"table_name":"incoth","type":"manual","query":"","filde":""},{"table_name":"ipt","type":"manual","query":"","filde":""},{"table_name":"iptadm","type":"manual","query":"","filde":""},{"table_name":"iptdiag","type":"manual","query":"","filde":""},{"table_name":"iptoprt","type":"manual","query":"","filde":""},{"table_name":"ipt_newborn","type":"manual","query":"","filde":""},{"table_name":"ipt_oper_code","type":"manual","query":"","filde":""},{"table_name":"ipt_pregnancy","type":"manual","query":"","filde":""},{"table_name":"kskdepartment","type":"manual","query":"","filde":""},{"table_name":"labor_place","type":"manual","query":"","filde":""},{"table_name":"lab_app_head","type":"manual","query":"","filde":""},{"table_name":"lab_head","type":"manual","query":"","filde":""},{"table_name":"lab_items","type":"manual","query":"","filde":""},{"table_name":"lab_items_exp_map","type":"manual","query":"","filde":""},{"table_name":"lab_items_group","type":"manual","query":"","filde":""},{"table_name":"lab_items_sub_group","type":"manual","query":"","filde":""},{"table_name":"lab_order","type":"manual","query":"","filde":""},{"table_name":"marrystatus","type":"manual","query":"","filde":""},{"table_name":"nationality","type":"manual","query":"","filde":""},{"table_name":"nhso_adp_code","type":"manual","query":"","filde":""},{"table_name":"nhso_adp_type","type":"manual","query":"","filde":""},{"table_name":"nhso_clinic","type":"manual","query":"","filde":""},{"table_name":"nhso_direct_status","type":"manual","query":"","filde":""},{"table_name":"nhso_eclaim_occupation","type":"manual","query":"","filde":""},{"table_name":"nhso_govcode","type":"manual","query":"","filde":""},{"table_name":"nhso_inscl_code","type":"manual","query":"","filde":""},{"table_name":"nhso_marriage","type":"manual","query":"","filde":""},{"table_name":"nhso_offline_check","type":"manual","query":"","filde":""},{"table_name":"nhso_offline_history","type":"manual","query":"","filde":""},{"table_name":"nhso_right_check_log","type":"manual","query":"","filde":""},{"table_name":"nhso_token","type":"manual","query":"","filde":""},{"table_name":"nhso_type_name","type":"manual","query":"","filde":""},{"table_name":"nondrugitems","type":"manual","query":"","filde":""},{"table_name":"oapp","type":"manual","query":"","filde":""},{"table_name":"occupation","type":"manual","query":"","filde":""},{"table_name":"opdconfig","type":"manual","query":"","filde":""},{"table_name":"opdscreen","type":"manual","query":"","filde":""},{"table_name":"opduser","type":"manual","query":"","filde":""},{"table_name":"opd_allergy","type":"manual","query":"","filde":""},{"table_name":"opd_ill_history","type":"manual","query":"","filde":""},{"table_name":"opd_kiosk_nhso_pttype","type":"manual","query":"","filde":""},{"table_name":"operation_anes","type":"manual","query":"","filde":""},{"table_name":"operation_anes_oper_list","type":"manual","query":"","filde":""},{"table_name":"operation_detail","type":"manual","query":"","filde":""},{"table_name":"operation_list","type":"manual","query":"","filde":""},{"table_name":"opitemrece","type":"manual","query":"","filde":""},{"table_name":"opi_dispense","type":"manual","query":"","filde":""},{"table_name":"ovst","type":"manual","query":"","filde":""},{"table_name":"ovstdiag","type":"manual","query":"","filde":""},{"table_name":"ovstist","type":"manual","query":"","filde":""},{"table_name":"ovstost","type":"manual","query":"","filde":""},{"table_name":"ovst_community_service","type":"manual","query":"","filde":""},{"table_name":"ovst_community_service_type","type":"manual","query":"","filde":""},{"table_name":"ovst_functional","type":"manual","query":"","filde":""},{"table_name":"ovst_icf","type":"manual","query":"","filde":""},{"table_name":"ovst_nhso_op_status","type":"manual","query":"","filde":""},{"table_name":"ovst_nhso_send","type":"manual","query":"","filde":""},{"table_name":"ovst_rehab","type":"manual","query":"","filde":""},{"table_name":"ovst_seq","type":"manual","query":"","filde":""},{"table_name":"ovst_vaccine","type":"manual","query":"","filde":""},{"table_name":"paidst","type":"manual","query":"","filde":""},{"table_name":"patient","type":"manual","query":"","filde":""},{"table_name":"patient_vaccine","type":"manual","query":"","filde":""},{"table_name":"pcu_drugitems","type":"manual","query":"","filde":""},{"table_name":"person","type":"manual","query":"","filde":""},{"table_name":"person_anc","type":"manual","query":"","filde":""},{"table_name":"person_anc_labor_detail","type":"manual","query":"","filde":""},{"table_name":"person_anc_preg_care","type":"manual","query":"","filde":""},{"table_name":"person_anc_service","type":"manual","query":"","filde":""},{"table_name":"person_anc_service_detail","type":"manual","query":"","filde":""},{"table_name":"person_development_list","type":"manual","query":"","filde":""},{"table_name":"person_dmht_nhso_screen","type":"manual","query":"","filde":""},{"table_name":"person_dmht_risk_screen_head","type":"manual","query":"","filde":""},{"table_name":"person_dmht_screen_summary","type":"manual","query":"","filde":""},{"table_name":"person_duty","type":"manual","query":"","filde":""},{"table_name":"person_epi","type":"manual","query":"","filde":""},{"table_name":"person_epi_nutrition","type":"manual","query":"","filde":""},{"table_name":"person_epi_place","type":"manual","query":"","filde":""},{"table_name":"person_epi_vaccine","type":"manual","query":"","filde":""},{"table_name":"person_epi_vaccine_list","type":"manual","query":"","filde":""},{"table_name":"person_ht_risk_bp_screen","type":"manual","query":"","filde":""},{"table_name":"person_labor_type","type":"manual","query":"","filde":""},{"table_name":"person_labour","type":"manual","query":"","filde":""},{"table_name":"person_labour_birth_no","type":"manual","query":"","filde":""},{"table_name":"person_labour_doctor_type","type":"manual","query":"","filde":""},{"table_name":"person_labour_place","type":"manual","query":"","filde":""},{"table_name":"person_labour_type","type":"manual","query":"","filde":""},{"table_name":"person_type","type":"manual","query":"","filde":""},{"table_name":"person_vaccine","type":"manual","query":"","filde":""},{"table_name":"person_vaccine_group_lot","type":"manual","query":"","filde":""},{"table_name":"person_vaccine_list","type":"manual","query":"","filde":""},{"table_name":"person_village_duty","type":"manual","query":"","filde":""},{"table_name":"person_wbc","type":"manual","query":"","filde":""},{"table_name":"person_wbc_nutrition","type":"manual","query":"","filde":""},{"table_name":"person_wbc_post_care","type":"manual","query":"","filde":""},{"table_name":"person_wbc_post_care_screen","type":"manual","query":"","filde":""},{"table_name":"person_wbc_service","type":"manual","query":"","filde":""},{"table_name":"person_wbc_service_detail","type":"manual","query":"","filde":""},{"table_name":"person_wbc_vaccine_abnormal","type":"manual","query":"","filde":""},{"table_name":"person_wbc_vaccine_detail","type":"manual","query":"","filde":""},{"table_name":"person_women","type":"manual","query":"","filde":""},{"table_name":"person_women_service","type":"manual","query":"","filde":""},{"table_name":"person_women_vaccine_list","type":"manual","query":"","filde":""},{"table_name":"physic_list","type":"manual","query":"","filde":""},{"table_name":"pname","type":"manual","query":"","filde":""},{"table_name":"pp_special","type":"manual","query":"","filde":""},{"table_name":"pp_special_type","type":"manual","query":"","filde":""},{"table_name":"provis_bgroup","type":"manual","query":"","filde":""},{"table_name":"provis_diagtype","type":"manual","query":"","filde":""},{"table_name":"provis_instype","type":"manual","query":"","filde":""},{"table_name":"provis_pname","type":"manual","query":"","filde":""},{"table_name":"ptcardno","type":"manual","query":"","filde":""},{"table_name":"pttype","type":"manual","query":"","filde":""},{"table_name":"pttypeno","type":"manual","query":"","filde":""},{"table_name":"pttype_nhso_subinscl","type":"manual","query":"","filde":""},{"table_name":"rcpt_print","type":"manual","query":"","filde":""},{"table_name":"referin","type":"manual","query":"","filde":""},{"table_name":"referout","type":"manual","query":"","filde":""},{"table_name":"referout_emergency_type","type":"manual","query":"","filde":""},{"table_name":"referout_sp_type","type":"manual","query":"","filde":""},{"table_name":"referout_type","type":"manual","query":"","filde":""},{"table_name":"refer_cause","type":"manual","query":"","filde":""},{"table_name":"refer_er_treatment","type":"manual","query":"","filde":""},{"table_name":"refer_type","type":"manual","query":"","filde":""},{"table_name":"religion","type":"manual","query":"","filde":""},{"table_name":"rfrcs","type":"manual","query":"","filde":""},{"table_name":"sex","type":"manual","query":"","filde":""},{"table_name":"spclty","type":"manual","query":"","filde":""},{"table_name":"sp_run","type":"manual","query":"","filde":""},{"table_name":"sp_use","type":"manual","query":"","filde":""},{"table_name":"student_vaccine","type":"manual","query":"","filde":""},{"table_name":"student_vaccine_place","type":"manual","query":"","filde":""},{"table_name":"sys_lab_link","type":"manual","query":"","filde":""},{"table_name":"s_drugitems","type":"manual","query":"","filde":""},{"table_name":"thaiaddress","type":"manual","query":"","filde":""},{"table_name":"thalassaemia_result","type":"manual","query":"","filde":""},{"table_name":"village","type":"manual","query":"","filde":""},{"table_name":"village_allurement","type":"manual","query":"","filde":""},{"table_name":"village_basis_doctor","type":"manual","query":"","filde":""},{"table_name":"village_basis_health_center","type":"manual","query":"","filde":""},{"table_name":"village_club","type":"manual","query":"","filde":""},{"table_name":"village_drug_store","type":"manual","query":"","filde":""},{"table_name":"village_factory","type":"manual","query":"","filde":""},{"table_name":"village_farm","type":"manual","query":"","filde":""},{"table_name":"village_healthcare_center","type":"manual","query":"","filde":""},{"table_name":"village_news_tower","type":"manual","query":"","filde":""},{"table_name":"village_radio_tower","type":"manual","query":"","filde":""},{"table_name":"village_rain_tank","type":"manual","query":"","filde":""},{"table_name":"village_recycle_tank","type":"manual","query":"","filde":""},{"table_name":"village_school","type":"manual","query":"","filde":""},{"table_name":"village_store","type":"manual","query":"","filde":""},{"table_name":"village_student","type":"manual","query":"","filde":""},{"table_name":"village_student_screen","type":"manual","query":"","filde":""},{"table_name":"village_survey_detail","type":"manual","query":"","filde":""},{"table_name":"village_temple","type":"manual","query":"","filde":""},{"table_name":"vn_stat","type":"manual","query":"","filde":""},{"table_name":"wbc_development_assess","type":"manual","query":"","filde":""},{"table_name":"wbc_vaccine","type":"manual","query":"","filde":""},{"table_name":"women_birth_control","type":"manual","query":"","filde":""},{"table_name":"women_vaccine","type":"manual","query":"","filde":""},{"table_name":"xray_head","type":"manual","query":"","filde":""},{"table_name":"xray_items","type":"manual","query":"","filde":""},{"table_name":"xray_report","type":"manual","query":"","filde":""}]}
+{
+	"schema": "hosxppcuxe",
+	"version": "0.0.1",
+	"tables": [
+		{
+			"table_name": "accident_person_type",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "accident_place_type",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "accident_transport_type",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "allergy_group",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "allergy_relation",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "allergy_result",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "allergy_seriousness",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "an_stat",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "baby_development_list",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "clinic",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "clinicmember",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "clinicmember_cormobidity_eye_screen",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "clinicmember_cormobidity_foot_screen",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "clinicmember_cormobidity_screen",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "clinic_member_status",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "clinic_persist_icd",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "clinic_visit",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "cm_dm_cmbty_screen",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "community_activity_service",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "dchstts",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "dchtype",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "death",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "dental_care",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "diagtype",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "dmht_eye_screen_cataract",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "dmht_eye_screen_result",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "dmht_foot_screen_result",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "dmht_foot_screen_ulcer",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "doctor",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "doctor_operation",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "drugitems",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "drugitems_charge_list",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "drugusage",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "dtmain",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "dtmain_area",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "dttm",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "education",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "epi_vaccine",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "er_emergency_type",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "er_nursing_detail",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "er_nursing_visit_type",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "er_oper_code",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "er_oper_code_area",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "er_regist",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "er_regist_oper",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "er_regist_oper_doctor",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "health_med_doctor",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "health_med_operation_code",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "health_med_operation_item",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "health_med_operation_type",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "health_med_organ",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "health_med_provider",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "health_med_service",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "house",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "house_survey_garbage",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "house_survey_summary",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "icd101",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "icd10_nhso",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "icd9cm1",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "icd9cm_price",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "incith",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "income",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "incoth",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "ipt",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "iptadm",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "iptdiag",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "iptoprt",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "ipt_newborn",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "ipt_oper_code",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "ipt_pregnancy",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "kskdepartment",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "labor_place",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "lab_app_head",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "lab_head",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "lab_items",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "lab_items_exp_map",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "lab_items_group",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "lab_items_sub_group",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "lab_order",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "marrystatus",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "nationality",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "nhso_adp_code",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "nhso_adp_type",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "nhso_clinic",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "nhso_direct_status",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "nhso_eclaim_occupation",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "nhso_govcode",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "nhso_inscl_code",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "nhso_marriage",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "nhso_offline_check",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "nhso_offline_history",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "nhso_right_check_log",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "nhso_token",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "nhso_type_name",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "nondrugitems",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "oapp",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "occupation",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "opdconfig",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "opdscreen",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "opduser",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "opd_allergy",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "opd_ill_history",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "opd_kiosk_nhso_pttype",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "operation_anes",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "operation_anes_oper_list",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "operation_detail",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "operation_list",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "opitemrece",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "opi_dispense",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "ovst",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "ovstdiag",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "ovstist",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "ovstost",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "ovst_community_service",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "ovst_community_service_type",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "ovst_functional",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "ovst_icf",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "ovst_nhso_op_status",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "ovst_nhso_send",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "ovst_rehab",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "ovst_seq",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "ovst_vaccine",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "paidst",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "patient",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "patient_vaccine",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "pcu_drugitems",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_anc",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_anc_labor_detail",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_anc_preg_care",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_anc_service",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_anc_service_detail",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_development_list",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_dmht_nhso_screen",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_dmht_risk_screen_head",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_dmht_screen_summary",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_duty",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_epi",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_epi_nutrition",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_epi_place",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_epi_vaccine",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_epi_vaccine_list",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_ht_risk_bp_screen",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_labor_type",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_labour",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_labour_birth_no",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_labour_doctor_type",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_labour_place",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_labour_type",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_type",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_vaccine",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_vaccine_group_lot",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_vaccine_list",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_village_duty",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_wbc",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_wbc_nutrition",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_wbc_post_care",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_wbc_post_care_screen",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_wbc_service",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_wbc_service_detail",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_wbc_vaccine_abnormal",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_wbc_vaccine_detail",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_women",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_women_service",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "person_women_vaccine_list",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "physic_list",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "pname",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "pp_special",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "pp_special_type",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "provis_bgroup",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "provis_diagtype",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "provis_instype",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "provis_pname",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "ptcardno",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "pttype",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "pttypeno",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "pttype_nhso_subinscl",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "rcpt_print",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "referin",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "referout",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "referout_emergency_type",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "referout_sp_type",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "referout_type",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "refer_cause",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "refer_er_treatment",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "refer_type",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "religion",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "rfrcs",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "sex",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "spclty",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "sp_run",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "sp_use",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "student_vaccine",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "student_vaccine_place",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "sys_lab_link",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "s_drugitems",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "thaiaddress",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "thalassaemia_result",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "village",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "village_allurement",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "village_basis_doctor",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "village_basis_health_center",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "village_club",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "village_drug_store",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "village_factory",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "village_farm",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "village_healthcare_center",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "village_news_tower",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "village_radio_tower",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "village_rain_tank",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "village_recycle_tank",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "village_school",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "village_store",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "village_student",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "village_student_screen",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "village_survey_detail",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "village_temple",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "vn_stat",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "wbc_development_assess",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "wbc_vaccine",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "women_birth_control",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "women_vaccine",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "xray_head",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "xray_items",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "xray_report",
+			"type": "ALL",
+			"query": null
+		}
+	]
+}

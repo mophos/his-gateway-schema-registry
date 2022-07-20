@@ -1,1 +1,101 @@
-{"schema":"hosexpress","version":"0.0.1","tables":[{"table_name":"f43_epi","type":"manual","query":"","filde":""},{"table_name":"hos_doctor_diagnosis","type":"manual","query":"","filde":""},{"table_name":"hos_doctor_diagtext","type":"manual","query":"","filde":""},{"table_name":"hos_doctor_procedure","type":"manual","query":"","filde":""},{"table_name":"hos_doctor_treatment","type":"manual","query":"","filde":""},{"table_name":"hos_drug_unitday","type":"manual","query":"","filde":""},{"table_name":"hos_drug_unitday_order","type":"manual","query":"","filde":""},{"table_name":"hos_drug_unitday_treatment","type":"manual","query":"","filde":""},{"table_name":"hos_lab","type":"manual","query":"","filde":""},{"table_name":"hos_lab_result","type":"manual","query":"","filde":""},{"table_name":"hos_pt","type":"manual","query":"","filde":""},{"table_name":"hos_pt_drug_allergy","type":"manual","query":"","filde":""},{"table_name":"hos_pt_visit","type":"manual","query":"","filde":""},{"table_name":"hos_pt_visit_pttype_nhso","type":"manual","query":"","filde":""},{"table_name":"hos_pt_visit_vitalsign","type":"manual","query":"","filde":""},{"table_name":"idx","type":"manual","query":"","filde":""},{"table_name":"iop","type":"manual","query":"","filde":""},{"table_name":"ipd","type":"manual","query":"","filde":""},{"table_name":"pat","type":"manual","query":"","filde":""}]}
+{
+	"schema": "hosexpress",
+	"version": "0.0.1",
+	"tables": [
+		{
+			"table_name": "f43_epi",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "hos_doctor_diagnosis",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "hos_doctor_diagtext",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "hos_doctor_procedure",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "hos_doctor_treatment",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "hos_drug_unitday",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "hos_drug_unitday_order",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "hos_drug_unitday_treatment",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "hos_lab",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "hos_lab_result",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "hos_pt",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "hos_pt_drug_allergy",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "hos_pt_visit",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "hos_pt_visit_pttype_nhso",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "hos_pt_visit_vitalsign",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "idx",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "iop",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "ipd",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "pat",
+			"type": "ALL",
+			"query": null
+		}
+	]
+}

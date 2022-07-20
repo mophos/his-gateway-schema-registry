@@ -1,1 +1,81 @@
-{"schema":"mbase","version":"0.0.1","tables":[{"table_name":"appoints","type":"manual","query":"","filde":""},{"table_name":"cid_hn","type":"manual","query":"","filde":""},{"table_name":"drugs","type":"manual","query":"","filde":""},{"table_name":"drugs_tho","type":"manual","query":"","filde":""},{"table_name":"icd10new","type":"manual","query":"","filde":""},{"table_name":"icd9cm","type":"manual","query":"","filde":""},{"table_name":"lab_lists","type":"manual","query":"","filde":""},{"table_name":"lab_requests","type":"manual","query":"","filde":""},{"table_name":"main_inscls","type":"manual","query":"","filde":""},{"table_name":"opd_diagnosis","type":"manual","query":"","filde":""},{"table_name":"opd_operations","type":"manual","query":"","filde":""},{"table_name":"opd_visits","type":"manual","query":"","filde":""},{"table_name":"population","type":"manual","query":"","filde":""},{"table_name":"refers","type":"manual","query":"","filde":""},{"table_name":"service_units","type":"manual","query":"","filde":""}]}
+{
+	"schema": "mbase",
+	"version": "0.0.1",
+	"tables": [
+		{
+			"table_name": "appoints",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "cid_hn",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "drugs",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "drugs_tho",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "icd10new",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "icd9cm",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "lab_lists",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "lab_requests",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "main_inscls",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "opd_diagnosis",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "opd_operations",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "opd_visits",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "population",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "refers",
+			"type": "ALL",
+			"query": null
+		},
+		{
+			"table_name": "service_units",
+			"type": "ALL",
+			"query": null
+		}
+	]
+}

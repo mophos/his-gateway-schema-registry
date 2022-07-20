@@ -1,1 +1,9 @@
-{"schema":"hi","version":[{"tag":"0.0.1","create_date":"2022-08-19 22:20:00"}]}
+{
+	"schema": "hi",
+	"version": [
+		{
+			"tag": "0.0.1",
+			"create_date": "2022-08-19 22:20:00"
+		}
+	]
+}
