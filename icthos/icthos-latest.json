@@ -5,12 +5,12 @@
 		{
 			"table_name": "person",
 			"type": "ALL",
-			"query": null
+			"query": "select * from person"
 		},
 		{
 			"table_name": "patient",
 			"type": "ALL",
-			"query": null
+			"query": "select * from patient"
 		}
 	]
 }
