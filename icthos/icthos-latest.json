@@ -3,9 +3,9 @@
     "version": "0.0.1",
     "tables": [
         {
-            "table_name": "ovst",
+            "table_name": "an_stat",
             "type": "QUERY",
-            "query": "select * from ovst  where vstdate between '##START_DATE' and '##END_DATE'"
+            "query": "select * from an_stat  where regdate between '##START_DATE' and '##END_DATE'"
         },
         {
             "table_name": "oapp",
