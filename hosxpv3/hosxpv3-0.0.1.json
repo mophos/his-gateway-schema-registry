@@ -5,37 +5,37 @@
 		{
 			"table_name": "accident_person_type",
 			"type": "ALL",
-			"query": null
+			"query": "select * from accident_person_type"
 		},
 		{
 			"table_name": "accident_place_type",
 			"type": "ALL",
-			"query": null
+			"query": "select * from accident_place_type"
 		},
 		{
 			"table_name": "accident_transport_type",
 			"type": "ALL",
-			"query": null
+			"query": "select * from accident_transport_type"
 		},
 		{
 			"table_name": "allergy_group",
 			"type": "ALL",
-			"query": null
+			"query": "select * from allergy_group"
 		},
 		{
 			"table_name": "allergy_relation",
 			"type": "ALL",
-			"query": null
+			"query": "select * from allergy_relation"
 		},
 		{
 			"table_name": "allergy_result",
 			"type": "ALL",
-			"query": null
+			"query": "select * from allergy_result"
 		},
 		{
 			"table_name": "allergy_seriousness",
 			"type": "ALL",
-			"query": null
+			"query": "select * from allergy_seriousness"
 		},
 		{
 			"table_name": "an_stat",
@@ -45,12 +45,12 @@
 		{
 			"table_name": "baby_development_list",
 			"type": "ALL",
-			"query": null
+			"query": "select * from baby_development_list"
 		},
 		{
 			"table_name": "clinic",
 			"type": "ALL",
-			"query": null
+			"query": "select * from clinic"
 		},
 		{
 			"table_name": "clinicmember",
@@ -75,17 +75,17 @@
 		{
 			"table_name": "clinic_member_status",
 			"type": "ALL",
-			"query": null
+			"query": "select * from clinic_member_status"
 		},
 		{
 			"table_name": "clinic_persist_icd",
 			"type": "ALL",
-			"query": null
+			"query": "select * from clinic_persist_icd"
 		},
 		{
 			"table_name": "clinic_visit",
 			"type": "ALL",
-			"query": null
+			"query": "select * from clinic_visit"
 		},
 		{
 			"table_name": "cm_dm_cmbty_screen",
@@ -100,12 +100,12 @@
 		{
 			"table_name": "dchstts",
 			"type": "ALL",
-			"query": null
+			"query": "select * from dchstts"
 		},
 		{
 			"table_name": "dchtype",
 			"type": "ALL",
-			"query": null
+			"query": "select * from dchtype"
 		},
 		{
 			"table_name": "death",
@@ -120,27 +120,27 @@
 		{
 			"table_name": "diagtype",
 			"type": "ALL",
-			"query": null
+			"query": "select * from diagtype"
 		},
 		{
 			"table_name": "dmht_eye_screen_cataract",
 			"type": "ALL",
-			"query": null
+			"query": "select * from dmht_eye_screen_cataract"
 		},
 		{
 			"table_name": "dmht_eye_screen_result",
 			"type": "ALL",
-			"query": null
+			"query": "select * from dmht_eye_screen_result"
 		},
 		{
 			"table_name": "dmht_foot_screen_result",
 			"type": "ALL",
-			"query": null
+			"query": "select * from dmht_foot_screen_result"
 		},
 		{
 			"table_name": "dmht_foot_screen_ulcer",
 			"type": "ALL",
-			"query": null
+			"query": "select * from dmht_foot_screen_ulcer"
 		},
 		{
 			"table_name": "doctor",
@@ -160,12 +160,12 @@
 		{
 			"table_name": "drugitems_charge_list",
 			"type": "ALL",
-			"query": null
+			"query": "select * from drugitems_charge_list"
 		},
 		{
 			"table_name": "drugusage",
 			"type": "ALL",
-			"query": null
+			"query": "select * from drugusage"
 		},
 		{
 			"table_name": "dtmain",
@@ -175,27 +175,27 @@
 		{
 			"table_name": "dtmain_area",
 			"type": "ALL",
-			"query": null
+			"query": "select * from dtmain_area"
 		},
 		{
 			"table_name": "dttm",
 			"type": "ALL",
-			"query": null
+			"query": "select * from dttm"
 		},
 		{
 			"table_name": "education",
 			"type": "ALL",
-			"query": null
+			"query": "select * from education"
 		},
 		{
 			"table_name": "epi_vaccine",
 			"type": "ALL",
-			"query": null
+			"query": "select * from epi_vaccine"
 		},
 		{
 			"table_name": "er_emergency_type",
 			"type": "ALL",
-			"query": null
+			"query": "select * from er_emergency_type"
 		},
 		{
 			"table_name": "er_nursing_detail",
@@ -205,17 +205,17 @@
 		{
 			"table_name": "er_nursing_visit_type",
 			"type": "ALL",
-			"query": null
+			"query": "select * from er_nursing_visit_type"
 		},
 		{
 			"table_name": "er_oper_code",
 			"type": "ALL",
-			"query": null
+			"query": "select * from er_oper_code"
 		},
 		{
 			"table_name": "er_oper_code_area",
 			"type": "ALL",
-			"query": null
+			"query": "select * from er_oper_code_area"
 		},
 		{
 			"table_name": "er_regist",
@@ -225,42 +225,42 @@
 		{
 			"table_name": "er_regist_oper",
 			"type": "ALL",
-			"query": null
+			"query": "select * from er_regist_oper"
 		},
 		{
 			"table_name": "er_regist_oper_doctor",
 			"type": "ALL",
-			"query": null
+			"query": "select * from er_regist_oper_doctor"
 		},
 		{
 			"table_name": "health_med_doctor",
 			"type": "ALL",
-			"query": null
+			"query": "select * from health_med_doctor"
 		},
 		{
 			"table_name": "health_med_operation_code",
 			"type": "ALL",
-			"query": null
+			"query": "select * from health_med_operation_code"
 		},
 		{
 			"table_name": "health_med_operation_item",
 			"type": "ALL",
-			"query": null
+			"query": "select * from health_med_operation_item"
 		},
 		{
 			"table_name": "health_med_operation_type",
 			"type": "ALL",
-			"query": null
+			"query": "select * from health_med_operation_type"
 		},
 		{
 			"table_name": "health_med_organ",
 			"type": "ALL",
-			"query": null
+			"query": "select * from health_med_organ"
 		},
 		{
 			"table_name": "health_med_provider",
 			"type": "ALL",
-			"query": null
+			"query": "select * from health_med_provider"
 		},
 		{
 			"table_name": "health_med_service",
@@ -275,32 +275,32 @@
 		{
 			"table_name": "house_survey_garbage",
 			"type": "ALL",
-			"query": null
+			"query": "select * from house_survey_garbage"
 		},
 		{
 			"table_name": "house_survey_summary",
 			"type": "ALL",
-			"query": null
+			"query": "select * from house_survey_summary"
 		},
 		{
 			"table_name": "icd101",
 			"type": "ALL",
-			"query": null
+			"query": "select * from icd101"
 		},
 		{
 			"table_name": "icd10_nhso",
 			"type": "ALL",
-			"query": null
+			"query": "select * from icd10_nhso"
 		},
 		{
 			"table_name": "icd9cm1",
 			"type": "ALL",
-			"query": null
+			"query": "select * from icd9cm1"
 		},
 		{
 			"table_name": "icd9cm_price",
 			"type": "ALL",
-			"query": null
+			"query": "select * from icd9cm_price"
 		},
 		{
 			"table_name": "incith",
@@ -310,7 +310,7 @@
 		{
 			"table_name": "income",
 			"type": "ALL",
-			"query": null
+			"query": "select * from income"
 		},
 		{
 			"table_name": "incoth",
@@ -345,7 +345,7 @@
 		{
 			"table_name": "ipt_oper_code",
 			"type": "ALL",
-			"query": null
+			"query": "select * from ipt_oper_code"
 		},
 		{
 			"table_name": "ipt_pregnancy",
@@ -360,7 +360,7 @@
 		{
 			"table_name": "labor_place",
 			"type": "ALL",
-			"query": null
+			"query": "select * from labor_place"
 		},
 		{
 			"table_name": "lab_app_head",
@@ -380,17 +380,17 @@
 		{
 			"table_name": "lab_items_exp_map",
 			"type": "ALL",
-			"query": null
+			"query": "select * from lab_items_exp_map"
 		},
 		{
 			"table_name": "lab_items_group",
 			"type": "ALL",
-			"query": null
+			"query": "select * from lab_items_group"
 		},
 		{
 			"table_name": "lab_items_sub_group",
 			"type": "ALL",
-			"query": null
+			"query": "select * from lab_items_sub_group"
 		},
 		{
 			"table_name": "lab_order",
@@ -400,52 +400,52 @@
 		{
 			"table_name": "marrystatus",
 			"type": "ALL",
-			"query": null
+			"query": "select * from marrystatus"
 		},
 		{
 			"table_name": "nationality",
 			"type": "ALL",
-			"query": null
+			"query": "select * from nationality"
 		},
 		{
 			"table_name": "nhso_adp_code",
 			"type": "ALL",
-			"query": null
+			"query": "select * from nhso_adp_code"
 		},
 		{
 			"table_name": "nhso_adp_type",
 			"type": "ALL",
-			"query": null
+			"query": "select * from nhso_adp_type"
 		},
 		{
 			"table_name": "nhso_clinic",
 			"type": "ALL",
-			"query": null
+			"query": "select * from nhso_clinic"
 		},
 		{
 			"table_name": "nhso_direct_status",
 			"type": "ALL",
-			"query": null
+			"query": "select * from nhso_direct_status"
 		},
 		{
 			"table_name": "nhso_eclaim_occupation",
 			"type": "ALL",
-			"query": null
+			"query": "select * from nhso_eclaim_occupation"
 		},
 		{
 			"table_name": "nhso_govcode",
 			"type": "ALL",
-			"query": null
+			"query": "select * from nhso_govcode"
 		},
 		{
 			"table_name": "nhso_inscl_code",
 			"type": "ALL",
-			"query": null
+			"query": "select * from nhso_inscl_code"
 		},
 		{
 			"table_name": "nhso_marriage",
 			"type": "ALL",
-			"query": null
+			"query": "select * from nhso_marriage"
 		},
 		{
 			"table_name": "nhso_offline_check",
@@ -470,7 +470,7 @@
 		{
 			"table_name": "nhso_type_name",
 			"type": "ALL",
-			"query": null
+			"query": "select * from nhso_type_name"
 		},
 		{
 			"table_name": "nondrugitems",
@@ -485,7 +485,7 @@
 		{
 			"table_name": "occupation",
 			"type": "ALL",
-			"query": null
+			"query": "select * from occupation"
 		},
 		{
 			"table_name": "opdconfig",
@@ -510,12 +510,12 @@
 		{
 			"table_name": "opd_ill_history",
 			"type": "ALL",
-			"query": null
+			"query": "select * from opd_ill_history"
 		},
 		{
 			"table_name": "opd_kiosk_nhso_pttype",
 			"type": "ALL",
-			"query": null
+			"query": "select * from opd_kiosk_nhso_pttype"
 		},
 		{
 			"table_name": "operation_anes",
@@ -560,12 +560,12 @@
 		{
 			"table_name": "ovstist",
 			"type": "ALL",
-			"query": null
+			"query": "select * from ovstist"
 		},
 		{
 			"table_name": "ovstost",
 			"type": "ALL",
-			"query": null
+			"query": "select * from ovstost"
 		},
 		{
 			"table_name": "ovst_community_service",
@@ -575,7 +575,7 @@
 		{
 			"table_name": "ovst_community_service_type",
 			"type": "ALL",
-			"query": null
+			"query": "select * from ovst_community_service_type"
 		},
 		{
 			"table_name": "ovst_functional",
@@ -615,7 +615,7 @@
 		{
 			"table_name": "paidst",
 			"type": "ALL",
-			"query": null
+			"query": "select * from paidst"
 		},
 		{
 			"table_name": "patient",
@@ -630,7 +630,7 @@
 		{
 			"table_name": "pcu_drugitems",
 			"type": "ALL",
-			"query": null
+			"query": "select * from pcu_drugitems"
 		},
 		{
 			"table_name": "person",
@@ -665,12 +665,12 @@
 		{
 			"table_name": "person_development_list",
 			"type": "ALL",
-			"query": null
+			"query": "select * from person_development_list"
 		},
 		{
 			"table_name": "person_dmht_nhso_screen",
 			"type": "ALL",
-			"query": null
+			"query": "select * from person_dmht_nhso_screen"
 		},
 		{
 			"table_name": "person_dmht_risk_screen_head",
@@ -685,7 +685,7 @@
 		{
 			"table_name": "person_duty",
 			"type": "ALL",
-			"query": null
+			"query": "select * from person_duty"
 		},
 		{
 			"table_name": "person_epi",
@@ -700,7 +700,7 @@
 		{
 			"table_name": "person_epi_place",
 			"type": "ALL",
-			"query": null
+			"query": "select * from person_epi_place"
 		},
 		{
 			"table_name": "person_epi_vaccine",
@@ -715,12 +715,12 @@
 		{
 			"table_name": "person_ht_risk_bp_screen",
 			"type": "ALL",
-			"query": null
+			"query": "select * from person_ht_risk_bp_screen"
 		},
 		{
 			"table_name": "person_labor_type",
 			"type": "ALL",
-			"query": null
+			"query": "select * from person_labor_type"
 		},
 		{
 			"table_name": "person_labour",
@@ -730,32 +730,32 @@
 		{
 			"table_name": "person_labour_birth_no",
 			"type": "ALL",
-			"query": null
+			"query": "select * from person_labour_birth_no"
 		},
 		{
 			"table_name": "person_labour_doctor_type",
 			"type": "ALL",
-			"query": null
+			"query": "select * from person_labour_doctor_type"
 		},
 		{
 			"table_name": "person_labour_place",
 			"type": "ALL",
-			"query": null
+			"query": "select * from person_labour_place"
 		},
 		{
 			"table_name": "person_labour_type",
 			"type": "ALL",
-			"query": null
+			"query": "select * from person_labour_type"
 		},
 		{
 			"table_name": "person_type",
 			"type": "ALL",
-			"query": null
+			"query": "select * from person_type"
 		},
 		{
 			"table_name": "person_vaccine",
 			"type": "ALL",
-			"query": null
+			"query": "select * from person_vaccine"
 		},
 		{
 			"table_name": "person_vaccine_group_lot",
@@ -790,7 +790,7 @@
 		{
 			"table_name": "person_wbc_post_care_screen",
 			"type": "ALL",
-			"query": null
+			"query": "select * from person_wbc_post_care_screen"
 		},
 		{
 			"table_name": "person_wbc_service",
@@ -805,7 +805,7 @@
 		{
 			"table_name": "person_wbc_vaccine_abnormal",
 			"type": "ALL",
-			"query": null
+			"query": "select * from person_wbc_vaccine_abnormal"
 		},
 		{
 			"table_name": "person_wbc_vaccine_detail",
@@ -835,7 +835,7 @@
 		{
 			"table_name": "pname",
 			"type": "ALL",
-			"query": null
+			"query": "select * from pname"
 		},
 		{
 			"table_name": "pp_special",
@@ -845,27 +845,27 @@
 		{
 			"table_name": "pp_special_type",
 			"type": "ALL",
-			"query": null
+			"query": "select * from pp_special_type"
 		},
 		{
 			"table_name": "provis_bgroup",
 			"type": "ALL",
-			"query": null
+			"query": "select * from provis_bgroup"
 		},
 		{
 			"table_name": "provis_diagtype",
 			"type": "ALL",
-			"query": null
+			"query": "select * from provis_diagtype"
 		},
 		{
 			"table_name": "provis_instype",
 			"type": "ALL",
-			"query": null
+			"query": "select * from provis_instype"
 		},
 		{
 			"table_name": "provis_pname",
 			"type": "ALL",
-			"query": null
+			"query": "select * from provis_pname"
 		},
 		{
 			"table_name": "ptcardno",
@@ -875,7 +875,7 @@
 		{
 			"table_name": "pttype",
 			"type": "ALL",
-			"query": null
+			"query": "select * from pttype"
 		},
 		{
 			"table_name": "pttypeno",
@@ -885,7 +885,7 @@
 		{
 			"table_name": "pttype_nhso_subinscl",
 			"type": "ALL",
-			"query": null
+			"query": "select * from pttype_nhso_subinscl"
 		},
 		{
 			"table_name": "rcpt_print",
@@ -905,52 +905,52 @@
 		{
 			"table_name": "referout_emergency_type",
 			"type": "ALL",
-			"query": null
+			"query": "select * from referout_emergency_type"
 		},
 		{
 			"table_name": "referout_sp_type",
 			"type": "ALL",
-			"query": null
+			"query": "select * from referout_sp_type"
 		},
 		{
 			"table_name": "referout_type",
 			"type": "ALL",
-			"query": null
+			"query": "select * from referout_type"
 		},
 		{
 			"table_name": "refer_cause",
 			"type": "ALL",
-			"query": null
+			"query": "select * from refer_cause"
 		},
 		{
 			"table_name": "refer_er_treatment",
 			"type": "ALL",
-			"query": null
+			"query": "select * from refer_er_treatment"
 		},
 		{
 			"table_name": "refer_type",
 			"type": "ALL",
-			"query": null
+			"query": "select * from refer_type"
 		},
 		{
 			"table_name": "religion",
 			"type": "ALL",
-			"query": null
+			"query": "select * from religion"
 		},
 		{
 			"table_name": "rfrcs",
 			"type": "ALL",
-			"query": null
+			"query": "select * from rfrcs"
 		},
 		{
 			"table_name": "sex",
 			"type": "ALL",
-			"query": null
+			"query": "select * from sex"
 		},
 		{
 			"table_name": "spclty",
 			"type": "ALL",
-			"query": null
+			"query": "select * from spclty"
 		},
 		{
 			"table_name": "sp_run",
@@ -960,37 +960,37 @@
 		{
 			"table_name": "sp_use",
 			"type": "ALL",
-			"query": null
+			"query": "select * from sp_use"
 		},
 		{
 			"table_name": "student_vaccine",
 			"type": "ALL",
-			"query": null
+			"query": "select * from student_vaccine"
 		},
 		{
 			"table_name": "student_vaccine_place",
 			"type": "ALL",
-			"query": null
+			"query": "select * from student_vaccine_place"
 		},
 		{
 			"table_name": "sys_lab_link",
 			"type": "ALL",
-			"query": null
+			"query": "select * from sys_lab_link"
 		},
 		{
 			"table_name": "s_drugitems",
 			"type": "ALL",
-			"query": null
+			"query": "select * from s_drugitems"
 		},
 		{
 			"table_name": "thaiaddress",
 			"type": "ALL",
-			"query": null
+			"query": "select * from thaiaddress"
 		},
 		{
 			"table_name": "thalassaemia_result",
 			"type": "ALL",
-			"query": null
+			"query": "select * from thalassaemia_result"
 		},
 		{
 			"table_name": "village",
@@ -1000,22 +1000,22 @@
 		{
 			"table_name": "village_allurement",
 			"type": "ALL",
-			"query": null
+			"query": "select * from village_allurement"
 		},
 		{
 			"table_name": "village_basis_doctor",
 			"type": "ALL",
-			"query": null
+			"query": "select * from village_basis_doctor"
 		},
 		{
 			"table_name": "village_basis_health_center",
 			"type": "ALL",
-			"query": null
+			"query": "select * from village_basis_health_center"
 		},
 		{
 			"table_name": "village_club",
 			"type": "ALL",
-			"query": null
+			"query": "select * from village_club"
 		},
 		{
 			"table_name": "village_drug_store",
@@ -1030,7 +1030,7 @@
 		{
 			"table_name": "village_farm",
 			"type": "ALL",
-			"query": null
+			"query": "select * from village_farm"
 		},
 		{
 			"table_name": "village_healthcare_center",
@@ -1040,22 +1040,22 @@
 		{
 			"table_name": "village_news_tower",
 			"type": "ALL",
-			"query": null
+			"query": "select * from village_news_tower"
 		},
 		{
 			"table_name": "village_radio_tower",
 			"type": "ALL",
-			"query": null
+			"query": "select * from village_radio_tower"
 		},
 		{
 			"table_name": "village_rain_tank",
 			"type": "ALL",
-			"query": null
+			"query": "select * from village_rain_tank"
 		},
 		{
 			"table_name": "village_recycle_tank",
 			"type": "ALL",
-			"query": null
+			"query": "select * from village_recycle_tank"
 		},
 		{
 			"table_name": "village_school",
@@ -1065,7 +1065,7 @@
 		{
 			"table_name": "village_store",
 			"type": "ALL",
-			"query": null
+			"query": "select * from village_store"
 		},
 		{
 			"table_name": "village_student",
@@ -1085,7 +1085,7 @@
 		{
 			"table_name": "village_temple",
 			"type": "ALL",
-			"query": null
+			"query": "select * from village_temple"
 		},
 		{
 			"table_name": "vn_stat",
@@ -1095,22 +1095,22 @@
 		{
 			"table_name": "wbc_development_assess",
 			"type": "ALL",
-			"query": null
+			"query": "select * from wbc_development_assess"
 		},
 		{
 			"table_name": "wbc_vaccine",
 			"type": "ALL",
-			"query": null
+			"query": "select * from wbc_vaccine"
 		},
 		{
 			"table_name": "women_birth_control",
 			"type": "ALL",
-			"query": null
+			"query": "select * from women_birth_control"
 		},
 		{
 			"table_name": "women_vaccine",
 			"type": "ALL",
-			"query": null
+			"query": "select * from women_vaccine"
 		},
 		{
 			"table_name": "xray_head",
@@ -1120,7 +1120,7 @@
 		{
 			"table_name": "xray_items",
 			"type": "ALL",
-			"query": null
+			"query": "select * from xray_items"
 		},
 		{
 			"table_name": "xray_report",
