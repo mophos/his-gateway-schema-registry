@@ -40,7 +40,7 @@
 		{
 			"table_name": "an_stat",
 			"type": "QUERY",
-			"query": "select * from an_stat where (dchdate BETWEEN '##START_DATE' AND '##END_DATE') or (last_sync_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (regdate BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from an_stat where (dchdate BETWEEN '$start_date' AND '$end_date') or (last_sync_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (regdate BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "baby_development_list",
@@ -55,22 +55,22 @@
 		{
 			"table_name": "clinicmember",
 			"type": "QUERY",
-			"query": "select * from clinicmember where (begin_date BETWEEN '##START_DATE' AND '##END_DATE') or (dchdate BETWEEN '##START_DATE' AND '##END_DATE') or (dx_date BETWEEN '##START_DATE' AND '##END_DATE') or (entry_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (last_bp_date BETWEEN '##START_DATE' AND '##END_DATE') or (last_cloud_sync_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (last_fbs_date BETWEEN '##START_DATE' AND '##END_DATE') or (last_hba1c_date BETWEEN '##START_DATE' AND '##END_DATE') or (last_ua_date BETWEEN '##START_DATE' AND '##END_DATE') or (lastupdate BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (lastvisit BETWEEN '##START_DATE' AND '##END_DATE') or (mo10_visit_date BETWEEN '##START_DATE' AND '##END_DATE') or (mo11_visit_date BETWEEN '##START_DATE' AND '##END_DATE') or (mo12_visit_date BETWEEN '##START_DATE' AND '##END_DATE') or (mo1_visit_date BETWEEN '##START_DATE' AND '##END_DATE') or (mo2_visit_date BETWEEN '##START_DATE' AND '##END_DATE') or (mo3_visit_date BETWEEN '##START_DATE' AND '##END_DATE') or (mo4_visit_date BETWEEN '##START_DATE' AND '##END_DATE') or (mo5_visit_date BETWEEN '##START_DATE' AND '##END_DATE') or (mo6_visit_date BETWEEN '##START_DATE' AND '##END_DATE') or (mo7_visit_date BETWEEN '##START_DATE' AND '##END_DATE') or (mo8_visit_date BETWEEN '##START_DATE' AND '##END_DATE') or (mo9_visit_date BETWEEN '##START_DATE' AND '##END_DATE') or (next_app_date BETWEEN '##START_DATE' AND '##END_DATE') or (period_begin_date BETWEEN '##START_DATE' AND '##END_DATE') or (refer_from_pcu_date BETWEEN '##START_DATE' AND '##END_DATE') or (regdate BETWEEN '##START_DATE' AND '##END_DATE') or (send_to_pcu_date BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from clinicmember where (begin_date BETWEEN '$start_date' AND '$end_date') or (dchdate BETWEEN '$start_date' AND '$end_date') or (dx_date BETWEEN '$start_date' AND '$end_date') or (entry_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (last_bp_date BETWEEN '$start_date' AND '$end_date') or (last_cloud_sync_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (last_fbs_date BETWEEN '$start_date' AND '$end_date') or (last_hba1c_date BETWEEN '$start_date' AND '$end_date') or (last_ua_date BETWEEN '$start_date' AND '$end_date') or (lastupdate BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (lastvisit BETWEEN '$start_date' AND '$end_date') or (mo10_visit_date BETWEEN '$start_date' AND '$end_date') or (mo11_visit_date BETWEEN '$start_date' AND '$end_date') or (mo12_visit_date BETWEEN '$start_date' AND '$end_date') or (mo1_visit_date BETWEEN '$start_date' AND '$end_date') or (mo2_visit_date BETWEEN '$start_date' AND '$end_date') or (mo3_visit_date BETWEEN '$start_date' AND '$end_date') or (mo4_visit_date BETWEEN '$start_date' AND '$end_date') or (mo5_visit_date BETWEEN '$start_date' AND '$end_date') or (mo6_visit_date BETWEEN '$start_date' AND '$end_date') or (mo7_visit_date BETWEEN '$start_date' AND '$end_date') or (mo8_visit_date BETWEEN '$start_date' AND '$end_date') or (mo9_visit_date BETWEEN '$start_date' AND '$end_date') or (next_app_date BETWEEN '$start_date' AND '$end_date') or (period_begin_date BETWEEN '$start_date' AND '$end_date') or (refer_from_pcu_date BETWEEN '$start_date' AND '$end_date') or (regdate BETWEEN '$start_date' AND '$end_date') or (send_to_pcu_date BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "clinicmember_cormobidity_eye_screen",
 			"type": "QUERY",
-			"query": "select * from clinicmember_cormobidity_eye_screen where (update_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from clinicmember_cormobidity_eye_screen where (update_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "clinicmember_cormobidity_foot_screen",
 			"type": "QUERY",
-			"query": "select * from clinicmember_cormobidity_foot_screen where (dmht_foot_screen_history_amputation_date BETWEEN '##START_DATE' AND '##END_DATE') or (update_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from clinicmember_cormobidity_foot_screen where (dmht_foot_screen_history_amputation_date BETWEEN '$start_date' AND '$end_date') or (update_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "clinicmember_cormobidity_screen",
 			"type": "QUERY",
-			"query": "select * from clinicmember_cormobidity_screen where (screen_date BETWEEN '##START_DATE' AND '##END_DATE') or (update_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from clinicmember_cormobidity_screen where (screen_date BETWEEN '$start_date' AND '$end_date') or (update_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "clinic_member_status",
@@ -90,12 +90,12 @@
 		{
 			"table_name": "cm_dm_cmbty_screen",
 			"type": "QUERY",
-			"query": "select * from cm_dm_cmbty_screen where (screen_date BETWEEN '##START_DATE' AND '##END_DATE') or (update_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from cm_dm_cmbty_screen where (screen_date BETWEEN '$start_date' AND '$end_date') or (update_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "community_activity_service",
 			"type": "QUERY",
-			"query": "select * from community_activity_service where (community_activity_service_date_entry BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (community_activity_service_date_finish BETWEEN '##START_DATE' AND '##END_DATE') or (community_activity_service_date_start BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from community_activity_service where (community_activity_service_date_entry BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (community_activity_service_date_finish BETWEEN '$start_date' AND '$end_date') or (community_activity_service_date_start BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "dchstts",
@@ -110,12 +110,12 @@
 		{
 			"table_name": "death",
 			"type": "QUERY",
-			"query": "select * from death where (death_cert_date BETWEEN '##START_DATE' AND '##END_DATE') or (death_date BETWEEN '##START_DATE' AND '##END_DATE') or (death_diag_date_1 BETWEEN '##START_DATE' AND '##END_DATE') or (death_diag_date_2 BETWEEN '##START_DATE' AND '##END_DATE') or (death_diag_date_3 BETWEEN '##START_DATE' AND '##END_DATE') or (death_diag_date_4 BETWEEN '##START_DATE' AND '##END_DATE') or (last_update BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (update_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from death where (death_cert_date BETWEEN '$start_date' AND '$end_date') or (death_date BETWEEN '$start_date' AND '$end_date') or (death_diag_date_1 BETWEEN '$start_date' AND '$end_date') or (death_diag_date_2 BETWEEN '$start_date' AND '$end_date') or (death_diag_date_3 BETWEEN '$start_date' AND '$end_date') or (death_diag_date_4 BETWEEN '$start_date' AND '$end_date') or (last_update BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (update_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "dental_care",
 			"type": "QUERY",
-			"query": "select * from dental_care where (entry_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from dental_care where (entry_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "diagtype",
@@ -145,17 +145,17 @@
 		{
 			"table_name": "doctor",
 			"type": "QUERY",
-			"query": "select * from doctor where (birth_date BETWEEN '##START_DATE' AND '##END_DATE') or (finish_date BETWEEN '##START_DATE' AND '##END_DATE') or (license_expire_date BETWEEN '##START_DATE' AND '##END_DATE') or (license_issue_date BETWEEN '##START_DATE' AND '##END_DATE') or (start_date BETWEEN '##START_DATE' AND '##END_DATE') or (update_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from doctor where (birth_date BETWEEN '$start_date' AND '$end_date') or (finish_date BETWEEN '$start_date' AND '$end_date') or (license_expire_date BETWEEN '$start_date' AND '$end_date') or (license_issue_date BETWEEN '$start_date' AND '$end_date') or (start_date BETWEEN '$start_date' AND '$end_date') or (update_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "doctor_operation",
 			"type": "QUERY",
-			"query": "select * from doctor_operation where (begin_date_time BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (end_date_time BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (update_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from doctor_operation where (begin_date_time BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (end_date_time BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (update_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "drugitems",
 			"type": "QUERY",
-			"query": "select * from drugitems where (begin_date BETWEEN '##START_DATE' AND '##END_DATE') or (finish_date BETWEEN '##START_DATE' AND '##END_DATE') or (last_update BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (lastupdatestdprice BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from drugitems where (begin_date BETWEEN '$start_date' AND '$end_date') or (finish_date BETWEEN '$start_date' AND '$end_date') or (last_update BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (lastupdatestdprice BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "drugitems_charge_list",
@@ -170,7 +170,7 @@
 		{
 			"table_name": "dtmain",
 			"type": "QUERY",
-			"query": "select * from dtmain where (begin_time BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (end_time BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (update_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (vstdate BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from dtmain where (begin_time BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (end_time BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (update_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (vstdate BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "dtmain_area",
@@ -200,7 +200,7 @@
 		{
 			"table_name": "er_nursing_detail",
 			"type": "QUERY",
-			"query": "select * from er_nursing_detail where (accident_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (arrive_time BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (discharge_date BETWEEN '##START_DATE' AND '##END_DATE') or (doctor_finish_time BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (report_doctor_time BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from er_nursing_detail where (accident_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (arrive_time BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (discharge_date BETWEEN '$start_date' AND '$end_date') or (doctor_finish_time BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (report_doctor_time BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "er_nursing_visit_type",
@@ -220,7 +220,7 @@
 		{
 			"table_name": "er_regist",
 			"type": "QUERY",
-			"query": "select * from er_regist where (doctor_tx_time BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (enter_er_time BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (finish_time BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (leave_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (update_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (vstdate BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from er_regist where (doctor_tx_time BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (enter_er_time BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (finish_time BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (leave_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (update_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (vstdate BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "er_regist_oper",
@@ -265,12 +265,12 @@
 		{
 			"table_name": "health_med_service",
 			"type": "QUERY",
-			"query": "select * from health_med_service where (service_date BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from health_med_service where (service_date BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "house",
 			"type": "QUERY",
-			"query": "select * from house where (last_update BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from house where (last_update BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "house_survey_garbage",
@@ -305,7 +305,7 @@
 		{
 			"table_name": "incith",
 			"type": "QUERY",
-			"query": "select * from incith where (billdate BETWEEN '##START_DATE' AND '##END_DATE') or (incdate BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from incith where (billdate BETWEEN '$start_date' AND '$end_date') or (incdate BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "income",
@@ -315,32 +315,32 @@
 		{
 			"table_name": "incoth",
 			"type": "QUERY",
-			"query": "select * from incoth where (billdate BETWEEN '##START_DATE' AND '##END_DATE') or (incdate BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from incoth where (billdate BETWEEN '$start_date' AND '$end_date') or (incdate BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "ipt",
 			"type": "QUERY",
-			"query": "select * from ipt where (data_exp_date BETWEEN '##START_DATE' AND '##END_DATE') or (dchdate BETWEEN '##START_DATE' AND '##END_DATE') or (estimate_discharge_date BETWEEN '##START_DATE' AND '##END_DATE') or (finance_summary_date BETWEEN '##START_DATE' AND '##END_DATE') or (last_check_autoincome BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (receive_chart_date_time BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (regdate BETWEEN '##START_DATE' AND '##END_DATE') or (update_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from ipt where (data_exp_date BETWEEN '$start_date' AND '$end_date') or (dchdate BETWEEN '$start_date' AND '$end_date') or (estimate_discharge_date BETWEEN '$start_date' AND '$end_date') or (finance_summary_date BETWEEN '$start_date' AND '$end_date') or (last_check_autoincome BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (receive_chart_date_time BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (regdate BETWEEN '$start_date' AND '$end_date') or (update_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "iptadm",
 			"type": "QUERY",
-			"query": "select * from iptadm where (indate BETWEEN '##START_DATE' AND '##END_DATE') or (move_in_bed_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (move_in_ward_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (outdate BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from iptadm where (indate BETWEEN '$start_date' AND '$end_date') or (move_in_bed_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (move_in_ward_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (outdate BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "iptdiag",
 			"type": "QUERY",
-			"query": "select * from iptdiag where (entry_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (modify_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from iptdiag where (entry_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (modify_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "iptoprt",
 			"type": "QUERY",
-			"query": "select * from iptoprt where (enddate BETWEEN '##START_DATE' AND '##END_DATE') or (entry_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (modify_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (opdate BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from iptoprt where (enddate BETWEEN '$start_date' AND '$end_date') or (entry_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (modify_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (opdate BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "ipt_newborn",
 			"type": "QUERY",
-			"query": "select * from ipt_newborn where (born_date BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from ipt_newborn where (born_date BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "ipt_oper_code",
@@ -350,12 +350,12 @@
 		{
 			"table_name": "ipt_pregnancy",
 			"type": "QUERY",
-			"query": "select * from ipt_pregnancy where (labor_date BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from ipt_pregnancy where (labor_date BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "kskdepartment",
 			"type": "QUERY",
-			"query": "select * from kskdepartment where (online_time BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from kskdepartment where (online_time BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "labor_place",
@@ -365,17 +365,17 @@
 		{
 			"table_name": "lab_app_head",
 			"type": "QUERY",
-			"query": "select * from lab_app_head where (entry_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (nextdate BETWEEN '##START_DATE' AND '##END_DATE') or (order_date BETWEEN '##START_DATE' AND '##END_DATE') or (receive_date BETWEEN '##START_DATE' AND '##END_DATE') or (report_date BETWEEN '##START_DATE' AND '##END_DATE') or (update_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from lab_app_head where (entry_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (nextdate BETWEEN '$start_date' AND '$end_date') or (order_date BETWEEN '$start_date' AND '$end_date') or (receive_date BETWEEN '$start_date' AND '$end_date') or (report_date BETWEEN '$start_date' AND '$end_date') or (update_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "lab_head",
 			"type": "QUERY",
-			"query": "select * from lab_head where (appointment_date BETWEEN '##START_DATE' AND '##END_DATE') or (doctor_ack_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (entry_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (order_date BETWEEN '##START_DATE' AND '##END_DATE') or (receive_date BETWEEN '##START_DATE' AND '##END_DATE') or (report_date BETWEEN '##START_DATE' AND '##END_DATE') or (report_lock_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (update_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from lab_head where (appointment_date BETWEEN '$start_date' AND '$end_date') or (doctor_ack_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (entry_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (order_date BETWEEN '$start_date' AND '$end_date') or (receive_date BETWEEN '$start_date' AND '$end_date') or (report_date BETWEEN '$start_date' AND '$end_date') or (report_lock_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (update_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "lab_items",
 			"type": "QUERY",
-			"query": "select * from lab_items where (cloud_update_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (update_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from lab_items where (cloud_update_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (update_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "lab_items_exp_map",
@@ -395,7 +395,7 @@
 		{
 			"table_name": "lab_order",
 			"type": "QUERY",
-			"query": "select * from lab_order where (laborder_date BETWEEN '##START_DATE' AND '##END_DATE') or (printed_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (update_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from lab_order where (laborder_date BETWEEN '$start_date' AND '$end_date') or (printed_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (update_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "marrystatus",
@@ -450,22 +450,22 @@
 		{
 			"table_name": "nhso_offline_check",
 			"type": "QUERY",
-			"query": "select * from nhso_offline_check where (check_time BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from nhso_offline_check where (check_time BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "nhso_offline_history",
 			"type": "QUERY",
-			"query": "select * from nhso_offline_history where (check_time BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from nhso_offline_history where (check_time BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "nhso_right_check_log",
 			"type": "QUERY",
-			"query": "select * from nhso_right_check_log where (check_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (pttype_begin BETWEEN '##START_DATE' AND '##END_DATE') or (pttype_expire BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from nhso_right_check_log where (check_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (pttype_begin BETWEEN '$start_date' AND '$end_date') or (pttype_expire BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "nhso_token",
 			"type": "QUERY",
-			"query": "select * from nhso_token where (update_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from nhso_token where (update_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "nhso_type_name",
@@ -475,12 +475,12 @@
 		{
 			"table_name": "nondrugitems",
 			"type": "QUERY",
-			"query": "select * from nondrugitems where (last_update BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from nondrugitems where (last_update BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "oapp",
 			"type": "QUERY",
-			"query": "select * from oapp where (enddate BETWEEN '##START_DATE' AND '##END_DATE') or (entry_date BETWEEN '##START_DATE' AND '##END_DATE') or (nextdate BETWEEN '##START_DATE' AND '##END_DATE') or (update_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (vstdate BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from oapp where (enddate BETWEEN '$start_date' AND '$end_date') or (entry_date BETWEEN '$start_date' AND '$end_date') or (nextdate BETWEEN '$start_date' AND '$end_date') or (update_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (vstdate BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "occupation",
@@ -490,22 +490,22 @@
 		{
 			"table_name": "opdconfig",
 			"type": "QUERY",
-			"query": "select * from opdconfig where (last_upgrade_structure BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (sync_date BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from opdconfig where (last_upgrade_structure BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (sync_date BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "opdscreen",
 			"type": "QUERY",
-			"query": "select * from opdscreen where (cc_begin_date BETWEEN '##START_DATE' AND '##END_DATE') or (his_begin_date BETWEEN '##START_DATE' AND '##END_DATE') or (lmp_date BETWEEN '##START_DATE' AND '##END_DATE') or (update_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (vstdate BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from opdscreen where (cc_begin_date BETWEEN '$start_date' AND '$end_date') or (his_begin_date BETWEEN '$start_date' AND '$end_date') or (lmp_date BETWEEN '$start_date' AND '$end_date') or (update_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (vstdate BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "opduser",
 			"type": "QUERY",
-			"query": "select * from opduser where (new_password_date BETWEEN '##START_DATE' AND '##END_DATE') or (password_expire_date BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from opduser where (new_password_date BETWEEN '$start_date' AND '$end_date') or (password_expire_date BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "opd_allergy",
 			"type": "QUERY",
-			"query": "select * from opd_allergy where (begin_date BETWEEN '##START_DATE' AND '##END_DATE') or (entry_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (report_date BETWEEN '##START_DATE' AND '##END_DATE') or (update_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from opd_allergy where (begin_date BETWEEN '$start_date' AND '$end_date') or (entry_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (report_date BETWEEN '$start_date' AND '$end_date') or (update_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "opd_ill_history",
@@ -520,42 +520,42 @@
 		{
 			"table_name": "operation_anes",
 			"type": "QUERY",
-			"query": "select * from operation_anes where (begin_date BETWEEN '##START_DATE' AND '##END_DATE') or (begin_date_time BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (end_date BETWEEN '##START_DATE' AND '##END_DATE') or (end_date_time BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from operation_anes where (begin_date BETWEEN '$start_date' AND '$end_date') or (begin_date_time BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (end_date BETWEEN '$start_date' AND '$end_date') or (end_date_time BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "operation_anes_oper_list",
 			"type": "QUERY",
-			"query": "select * from operation_anes_oper_list where (begin_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (end_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (operation_anes_oper_begin_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (operation_anes_oper_end_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from operation_anes_oper_list where (begin_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (end_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (operation_anes_oper_begin_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (operation_anes_oper_end_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "operation_detail",
 			"type": "QUERY",
-			"query": "select * from operation_detail where (begin_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (closure_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (end_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (incision_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (time_out_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from operation_detail where (begin_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (closure_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (end_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (incision_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (time_out_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "operation_list",
 			"type": "QUERY",
-			"query": "select * from operation_list where (arrive_date BETWEEN '##START_DATE' AND '##END_DATE') or (doctor_closing_date BETWEEN '##START_DATE' AND '##END_DATE') or (doctor_incision_date BETWEEN '##START_DATE' AND '##END_DATE') or (enter_date BETWEEN '##START_DATE' AND '##END_DATE') or (leave_date BETWEEN '##START_DATE' AND '##END_DATE') or (npo_date_time BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (operation_check_date BETWEEN '##START_DATE' AND '##END_DATE') or (operation_date BETWEEN '##START_DATE' AND '##END_DATE') or (request_date BETWEEN '##START_DATE' AND '##END_DATE') or (request_operation_date BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from operation_list where (arrive_date BETWEEN '$start_date' AND '$end_date') or (doctor_closing_date BETWEEN '$start_date' AND '$end_date') or (doctor_incision_date BETWEEN '$start_date' AND '$end_date') or (enter_date BETWEEN '$start_date' AND '$end_date') or (leave_date BETWEEN '$start_date' AND '$end_date') or (npo_date_time BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (operation_check_date BETWEEN '$start_date' AND '$end_date') or (operation_date BETWEEN '$start_date' AND '$end_date') or (request_date BETWEEN '$start_date' AND '$end_date') or (request_operation_date BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "opitemrece",
 			"type": "QUERY",
-			"query": "select * from opitemrece where (last_modified BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (rxdate BETWEEN '##START_DATE' AND '##END_DATE') or (vstdate BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from opitemrece where (last_modified BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (rxdate BETWEEN '$start_date' AND '$end_date') or (vstdate BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "opi_dispense",
 			"type": "QUERY",
-			"query": "select * from opi_dispense where (finish_date BETWEEN '##START_DATE' AND '##END_DATE') or (modify_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from opi_dispense where (finish_date BETWEEN '$start_date' AND '$end_date') or (modify_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "ovst",
 			"type": "QUERY",
-			"query": "select * from ovst where (finance_summary_date BETWEEN '##START_DATE' AND '##END_DATE') or (vstdate BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from ovst where (finance_summary_date BETWEEN '$start_date' AND '$end_date') or (vstdate BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "ovstdiag",
 			"type": "QUERY",
-			"query": "select * from ovstdiag where (update_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (vstdate BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from ovstdiag where (update_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (vstdate BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "ovstist",
@@ -570,7 +570,7 @@
 		{
 			"table_name": "ovst_community_service",
 			"type": "QUERY",
-			"query": "select * from ovst_community_service where (entry_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from ovst_community_service where (entry_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "ovst_community_service_type",
@@ -580,37 +580,37 @@
 		{
 			"table_name": "ovst_functional",
 			"type": "QUERY",
-			"query": "select * from ovst_functional where (entry_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from ovst_functional where (entry_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "ovst_icf",
 			"type": "QUERY",
-			"query": "select * from ovst_icf where (entry_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from ovst_icf where (entry_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "ovst_nhso_op_status",
 			"type": "QUERY",
-			"query": "select * from ovst_nhso_op_status where (nhso_direct_update_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from ovst_nhso_op_status where (nhso_direct_update_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "ovst_nhso_send",
 			"type": "QUERY",
-			"query": "select * from ovst_nhso_send where (send_date BETWEEN '##START_DATE' AND '##END_DATE') or (update_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from ovst_nhso_send where (send_date BETWEEN '$start_date' AND '$end_date') or (update_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "ovst_rehab",
 			"type": "QUERY",
-			"query": "select * from ovst_rehab where (finish_date BETWEEN '##START_DATE' AND '##END_DATE') or (service_date BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from ovst_rehab where (finish_date BETWEEN '$start_date' AND '$end_date') or (service_date BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "ovst_seq",
 			"type": "QUERY",
-			"query": "select * from ovst_seq where (last_check_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (pttype_check_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (rx_queue_time BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (update_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from ovst_seq where (last_check_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (pttype_check_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (rx_queue_time BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (update_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "ovst_vaccine",
 			"type": "QUERY",
-			"query": "select * from ovst_vaccine where (expire_date BETWEEN '##START_DATE' AND '##END_DATE') or (update_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from ovst_vaccine where (expire_date BETWEEN '$start_date' AND '$end_date') or (update_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "paidst",
@@ -620,12 +620,12 @@
 		{
 			"table_name": "patient",
 			"type": "QUERY",
-			"query": "select * from patient where (birthday BETWEEN '##START_DATE' AND '##END_DATE') or (card_destroy_date BETWEEN '##START_DATE' AND '##END_DATE') or (deathday BETWEEN '##START_DATE' AND '##END_DATE') or (firstday BETWEEN '##START_DATE' AND '##END_DATE') or (last_update BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (last_visit BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from patient where (birthday BETWEEN '$start_date' AND '$end_date') or (card_destroy_date BETWEEN '$start_date' AND '$end_date') or (deathday BETWEEN '$start_date' AND '$end_date') or (firstday BETWEEN '$start_date' AND '$end_date') or (last_update BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (last_visit BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "patient_vaccine",
 			"type": "QUERY",
-			"query": "select * from patient_vaccine where (vaccine_date BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from patient_vaccine where (vaccine_date BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "pcu_drugitems",
@@ -635,32 +635,32 @@
 		{
 			"table_name": "person",
 			"type": "QUERY",
-			"query": "select * from person where (birthdate BETWEEN '##START_DATE' AND '##END_DATE') or (death_date BETWEEN '##START_DATE' AND '##END_DATE') or (discharge_date BETWEEN '##START_DATE' AND '##END_DATE') or (last_update BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (last_update_pttype BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (movein_date BETWEEN '##START_DATE' AND '##END_DATE') or (pttype_begin_date BETWEEN '##START_DATE' AND '##END_DATE') or (pttype_expire_date BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from person where (birthdate BETWEEN '$start_date' AND '$end_date') or (death_date BETWEEN '$start_date' AND '$end_date') or (discharge_date BETWEEN '$start_date' AND '$end_date') or (last_update BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (last_update_pttype BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (movein_date BETWEEN '$start_date' AND '$end_date') or (pttype_begin_date BETWEEN '$start_date' AND '$end_date') or (pttype_expire_date BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "person_anc",
 			"type": "QUERY",
-			"query": "select * from person_anc where (anc_register_date BETWEEN '##START_DATE' AND '##END_DATE') or (blood_check1_date BETWEEN '##START_DATE' AND '##END_DATE') or (blood_check2_date BETWEEN '##START_DATE' AND '##END_DATE') or (dental_tx_date BETWEEN '##START_DATE' AND '##END_DATE') or (discharge_date BETWEEN '##START_DATE' AND '##END_DATE') or (edc BETWEEN '##START_DATE' AND '##END_DATE') or (first_doctor_date BETWEEN '##START_DATE' AND '##END_DATE') or (force_complete_date BETWEEN '##START_DATE' AND '##END_DATE') or (force_labor_complete_date BETWEEN '##START_DATE' AND '##END_DATE') or (labor_date BETWEEN '##START_DATE' AND '##END_DATE') or (last_update BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (lmp BETWEEN '##START_DATE' AND '##END_DATE') or (nhso_reply_update_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (nhso_send_date BETWEEN '##START_DATE' AND '##END_DATE') or (post_labor_service1_date BETWEEN '##START_DATE' AND '##END_DATE') or (post_labor_service2_date BETWEEN '##START_DATE' AND '##END_DATE') or (post_labor_service3_date BETWEEN '##START_DATE' AND '##END_DATE') or (pre_labor_service1_date BETWEEN '##START_DATE' AND '##END_DATE') or (pre_labor_service2_date BETWEEN '##START_DATE' AND '##END_DATE') or (pre_labor_service3_date BETWEEN '##START_DATE' AND '##END_DATE') or (pre_labor_service4_date BETWEEN '##START_DATE' AND '##END_DATE') or (pre_labor_service5_date BETWEEN '##START_DATE' AND '##END_DATE') or (preg_begin_date BETWEEN '##START_DATE' AND '##END_DATE') or (risk_refer_date BETWEEN '##START_DATE' AND '##END_DATE') or (thalassemia_confirm_date BETWEEN '##START_DATE' AND '##END_DATE') or (thalassemia_prenatal_confirm_date BETWEEN '##START_DATE' AND '##END_DATE') or (thalassemia_prenatal_date BETWEEN '##START_DATE' AND '##END_DATE') or (thalassemia_screen_date BETWEEN '##START_DATE' AND '##END_DATE') or (vaccine_dtanc1_date BETWEEN '##START_DATE' AND '##END_DATE') or (vaccine_dtanc2_date BETWEEN '##START_DATE' AND '##END_DATE') or (vaccine_dtanc3_date BETWEEN '##START_DATE' AND '##END_DATE') or (vaccine_dtanc4_date BETWEEN '##START_DATE' AND '##END_DATE') or (vaccine_dtanc5_date BETWEEN '##START_DATE' AND '##END_DATE') or (vaccine_tt1_date BETWEEN '##START_DATE' AND '##END_DATE') or (vaccine_tt2_date BETWEEN '##START_DATE' AND '##END_DATE') or (vaccine_tt3_date BETWEEN '##START_DATE' AND '##END_DATE') or (vaccine_tt4_date BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from person_anc where (anc_register_date BETWEEN '$start_date' AND '$end_date') or (blood_check1_date BETWEEN '$start_date' AND '$end_date') or (blood_check2_date BETWEEN '$start_date' AND '$end_date') or (dental_tx_date BETWEEN '$start_date' AND '$end_date') or (discharge_date BETWEEN '$start_date' AND '$end_date') or (edc BETWEEN '$start_date' AND '$end_date') or (first_doctor_date BETWEEN '$start_date' AND '$end_date') or (force_complete_date BETWEEN '$start_date' AND '$end_date') or (force_labor_complete_date BETWEEN '$start_date' AND '$end_date') or (labor_date BETWEEN '$start_date' AND '$end_date') or (last_update BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (lmp BETWEEN '$start_date' AND '$end_date') or (nhso_reply_update_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (nhso_send_date BETWEEN '$start_date' AND '$end_date') or (post_labor_service1_date BETWEEN '$start_date' AND '$end_date') or (post_labor_service2_date BETWEEN '$start_date' AND '$end_date') or (post_labor_service3_date BETWEEN '$start_date' AND '$end_date') or (pre_labor_service1_date BETWEEN '$start_date' AND '$end_date') or (pre_labor_service2_date BETWEEN '$start_date' AND '$end_date') or (pre_labor_service3_date BETWEEN '$start_date' AND '$end_date') or (pre_labor_service4_date BETWEEN '$start_date' AND '$end_date') or (pre_labor_service5_date BETWEEN '$start_date' AND '$end_date') or (preg_begin_date BETWEEN '$start_date' AND '$end_date') or (risk_refer_date BETWEEN '$start_date' AND '$end_date') or (thalassemia_confirm_date BETWEEN '$start_date' AND '$end_date') or (thalassemia_prenatal_confirm_date BETWEEN '$start_date' AND '$end_date') or (thalassemia_prenatal_date BETWEEN '$start_date' AND '$end_date') or (thalassemia_screen_date BETWEEN '$start_date' AND '$end_date') or (vaccine_dtanc1_date BETWEEN '$start_date' AND '$end_date') or (vaccine_dtanc2_date BETWEEN '$start_date' AND '$end_date') or (vaccine_dtanc3_date BETWEEN '$start_date' AND '$end_date') or (vaccine_dtanc4_date BETWEEN '$start_date' AND '$end_date') or (vaccine_dtanc5_date BETWEEN '$start_date' AND '$end_date') or (vaccine_tt1_date BETWEEN '$start_date' AND '$end_date') or (vaccine_tt2_date BETWEEN '$start_date' AND '$end_date') or (vaccine_tt3_date BETWEEN '$start_date' AND '$end_date') or (vaccine_tt4_date BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "person_anc_labor_detail",
 			"type": "QUERY",
-			"query": "select * from person_anc_labor_detail where (labor_date BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from person_anc_labor_detail where (labor_date BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "person_anc_preg_care",
 			"type": "QUERY",
-			"query": "select * from person_anc_preg_care where (care_date BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from person_anc_preg_care where (care_date BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "person_anc_service",
 			"type": "QUERY",
-			"query": "select * from person_anc_service where (anc_service_date BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from person_anc_service where (anc_service_date BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "person_anc_service_detail",
 			"type": "QUERY",
-			"query": "select * from person_anc_service_detail where (vaccine_expire_date BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from person_anc_service_detail where (vaccine_expire_date BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "person_development_list",
@@ -675,12 +675,12 @@
 		{
 			"table_name": "person_dmht_risk_screen_head",
 			"type": "QUERY",
-			"query": "select * from person_dmht_risk_screen_head where (screen_date BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from person_dmht_risk_screen_head where (screen_date BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "person_dmht_screen_summary",
 			"type": "QUERY",
-			"query": "select * from person_dmht_screen_summary where (last_screen_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from person_dmht_screen_summary where (last_screen_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "person_duty",
@@ -690,12 +690,12 @@
 		{
 			"table_name": "person_epi",
 			"type": "QUERY",
-			"query": "select * from person_epi where (discharge_date BETWEEN '##START_DATE' AND '##END_DATE') or (last_update BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (person_epi_regdate BETWEEN '##START_DATE' AND '##END_DATE') or (vaccine_dtp4_date BETWEEN '##START_DATE' AND '##END_DATE') or (vaccine_dtp5_date BETWEEN '##START_DATE' AND '##END_DATE') or (vaccine_ipv_date BETWEEN '##START_DATE' AND '##END_DATE') or (vaccine_je1_date BETWEEN '##START_DATE' AND '##END_DATE') or (vaccine_je1_lived_date BETWEEN '##START_DATE' AND '##END_DATE') or (vaccine_je2_date BETWEEN '##START_DATE' AND '##END_DATE') or (vaccine_je2_lived_date BETWEEN '##START_DATE' AND '##END_DATE') or (vaccine_je3_date BETWEEN '##START_DATE' AND '##END_DATE') or (vaccine_mmr2_date BETWEEN '##START_DATE' AND '##END_DATE') or (vaccine_opv4_date BETWEEN '##START_DATE' AND '##END_DATE') or (vaccine_opv5_date BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from person_epi where (discharge_date BETWEEN '$start_date' AND '$end_date') or (last_update BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (person_epi_regdate BETWEEN '$start_date' AND '$end_date') or (vaccine_dtp4_date BETWEEN '$start_date' AND '$end_date') or (vaccine_dtp5_date BETWEEN '$start_date' AND '$end_date') or (vaccine_ipv_date BETWEEN '$start_date' AND '$end_date') or (vaccine_je1_date BETWEEN '$start_date' AND '$end_date') or (vaccine_je1_lived_date BETWEEN '$start_date' AND '$end_date') or (vaccine_je2_date BETWEEN '$start_date' AND '$end_date') or (vaccine_je2_lived_date BETWEEN '$start_date' AND '$end_date') or (vaccine_je3_date BETWEEN '$start_date' AND '$end_date') or (vaccine_mmr2_date BETWEEN '$start_date' AND '$end_date') or (vaccine_opv4_date BETWEEN '$start_date' AND '$end_date') or (vaccine_opv5_date BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "person_epi_nutrition",
 			"type": "QUERY",
-			"query": "select * from person_epi_nutrition where (nutrition_date BETWEEN '##START_DATE' AND '##END_DATE') or (update_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from person_epi_nutrition where (nutrition_date BETWEEN '$start_date' AND '$end_date') or (update_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "person_epi_place",
@@ -705,12 +705,12 @@
 		{
 			"table_name": "person_epi_vaccine",
 			"type": "QUERY",
-			"query": "select * from person_epi_vaccine where (vaccine_date BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from person_epi_vaccine where (vaccine_date BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "person_epi_vaccine_list",
 			"type": "QUERY",
-			"query": "select * from person_epi_vaccine_list where (vaccine_expire_date BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from person_epi_vaccine_list where (vaccine_expire_date BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "person_ht_risk_bp_screen",
@@ -725,7 +725,7 @@
 		{
 			"table_name": "person_labour",
 			"type": "QUERY",
-			"query": "select * from person_labour where (thyroid_confirm_date BETWEEN '##START_DATE' AND '##END_DATE') or (thyroid_screen_date BETWEEN '##START_DATE' AND '##END_DATE') or (thyroid_treatment_date BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from person_labour where (thyroid_confirm_date BETWEEN '$start_date' AND '$end_date') or (thyroid_screen_date BETWEEN '$start_date' AND '$end_date') or (thyroid_treatment_date BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "person_labour_birth_no",
@@ -760,32 +760,32 @@
 		{
 			"table_name": "person_vaccine_group_lot",
 			"type": "QUERY",
-			"query": "select * from person_vaccine_group_lot where (expire_date BETWEEN '##START_DATE' AND '##END_DATE') or (receive_date BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from person_vaccine_group_lot where (expire_date BETWEEN '$start_date' AND '$end_date') or (receive_date BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "person_vaccine_list",
 			"type": "QUERY",
-			"query": "select * from person_vaccine_list where (vaccine_date BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from person_vaccine_list where (vaccine_date BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "person_village_duty",
 			"type": "QUERY",
-			"query": "select * from person_village_duty where (finish_date BETWEEN '##START_DATE' AND '##END_DATE') or (start_date BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from person_village_duty where (finish_date BETWEEN '$start_date' AND '$end_date') or (start_date BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "person_wbc",
 			"type": "QUERY",
-			"query": "select * from person_wbc where (baby_service1_date BETWEEN '##START_DATE' AND '##END_DATE') or (baby_service2_date BETWEEN '##START_DATE' AND '##END_DATE') or (baby_service3_date BETWEEN '##START_DATE' AND '##END_DATE') or (baby_service4_date BETWEEN '##START_DATE' AND '##END_DATE') or (discharge_date BETWEEN '##START_DATE' AND '##END_DATE') or (force_complete_date BETWEEN '##START_DATE' AND '##END_DATE') or (last_update BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (nhso_reply_update_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (nhso_send_date BETWEEN '##START_DATE' AND '##END_DATE') or (person_wbc_regdate BETWEEN '##START_DATE' AND '##END_DATE') or (vaccine_bcg_date BETWEEN '##START_DATE' AND '##END_DATE') or (vaccine_dtp1_date BETWEEN '##START_DATE' AND '##END_DATE') or (vaccine_dtp2_date BETWEEN '##START_DATE' AND '##END_DATE') or (vaccine_dtp3_date BETWEEN '##START_DATE' AND '##END_DATE') or (vaccine_dtphb1_date BETWEEN '##START_DATE' AND '##END_DATE') or (vaccine_dtphb2_date BETWEEN '##START_DATE' AND '##END_DATE') or (vaccine_dtphb3_date BETWEEN '##START_DATE' AND '##END_DATE') or (vaccine_hbv1_date BETWEEN '##START_DATE' AND '##END_DATE') or (vaccine_hbv2_date BETWEEN '##START_DATE' AND '##END_DATE') or (vaccine_hbv3_date BETWEEN '##START_DATE' AND '##END_DATE') or (vaccine_ipv_date BETWEEN '##START_DATE' AND '##END_DATE') or (vaccine_measles_date BETWEEN '##START_DATE' AND '##END_DATE') or (vaccine_mmr_date BETWEEN '##START_DATE' AND '##END_DATE') or (vaccine_opv1_date BETWEEN '##START_DATE' AND '##END_DATE') or (vaccine_opv2_date BETWEEN '##START_DATE' AND '##END_DATE') or (vaccine_opv3_date BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from person_wbc where (baby_service1_date BETWEEN '$start_date' AND '$end_date') or (baby_service2_date BETWEEN '$start_date' AND '$end_date') or (baby_service3_date BETWEEN '$start_date' AND '$end_date') or (baby_service4_date BETWEEN '$start_date' AND '$end_date') or (discharge_date BETWEEN '$start_date' AND '$end_date') or (force_complete_date BETWEEN '$start_date' AND '$end_date') or (last_update BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (nhso_reply_update_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (nhso_send_date BETWEEN '$start_date' AND '$end_date') or (person_wbc_regdate BETWEEN '$start_date' AND '$end_date') or (vaccine_bcg_date BETWEEN '$start_date' AND '$end_date') or (vaccine_dtp1_date BETWEEN '$start_date' AND '$end_date') or (vaccine_dtp2_date BETWEEN '$start_date' AND '$end_date') or (vaccine_dtp3_date BETWEEN '$start_date' AND '$end_date') or (vaccine_dtphb1_date BETWEEN '$start_date' AND '$end_date') or (vaccine_dtphb2_date BETWEEN '$start_date' AND '$end_date') or (vaccine_dtphb3_date BETWEEN '$start_date' AND '$end_date') or (vaccine_hbv1_date BETWEEN '$start_date' AND '$end_date') or (vaccine_hbv2_date BETWEEN '$start_date' AND '$end_date') or (vaccine_hbv3_date BETWEEN '$start_date' AND '$end_date') or (vaccine_ipv_date BETWEEN '$start_date' AND '$end_date') or (vaccine_measles_date BETWEEN '$start_date' AND '$end_date') or (vaccine_mmr_date BETWEEN '$start_date' AND '$end_date') or (vaccine_opv1_date BETWEEN '$start_date' AND '$end_date') or (vaccine_opv2_date BETWEEN '$start_date' AND '$end_date') or (vaccine_opv3_date BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "person_wbc_nutrition",
 			"type": "QUERY",
-			"query": "select * from person_wbc_nutrition where (nutrition_date BETWEEN '##START_DATE' AND '##END_DATE') or (update_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from person_wbc_nutrition where (nutrition_date BETWEEN '$start_date' AND '$end_date') or (update_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "person_wbc_post_care",
 			"type": "QUERY",
-			"query": "select * from person_wbc_post_care where (care_date BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from person_wbc_post_care where (care_date BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "person_wbc_post_care_screen",
@@ -795,12 +795,12 @@
 		{
 			"table_name": "person_wbc_service",
 			"type": "QUERY",
-			"query": "select * from person_wbc_service where (service_date BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from person_wbc_service where (service_date BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "person_wbc_service_detail",
 			"type": "QUERY",
-			"query": "select * from person_wbc_service_detail where (vaccine_expire_date BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from person_wbc_service_detail where (vaccine_expire_date BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "person_wbc_vaccine_abnormal",
@@ -810,27 +810,27 @@
 		{
 			"table_name": "person_wbc_vaccine_detail",
 			"type": "QUERY",
-			"query": "select * from person_wbc_vaccine_detail where (vaccine_expire_date BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from person_wbc_vaccine_detail where (vaccine_expire_date BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "person_women",
 			"type": "QUERY",
-			"query": "select * from person_women where (discharge_date BETWEEN '##START_DATE' AND '##END_DATE') or (last_update BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (regdate BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from person_women where (discharge_date BETWEEN '$start_date' AND '$end_date') or (last_update BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (regdate BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "person_women_service",
 			"type": "QUERY",
-			"query": "select * from person_women_service where (service_date BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from person_women_service where (service_date BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "person_women_vaccine_list",
 			"type": "QUERY",
-			"query": "select * from person_women_vaccine_list where (vaccine_expire_date BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from person_women_vaccine_list where (vaccine_expire_date BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "physic_list",
 			"type": "QUERY",
-			"query": "select * from physic_list where (begin_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (end_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from physic_list where (begin_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (end_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "pname",
@@ -840,7 +840,7 @@
 		{
 			"table_name": "pp_special",
 			"type": "QUERY",
-			"query": "select * from pp_special where (entry_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from pp_special where (entry_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "pp_special_type",
@@ -870,7 +870,7 @@
 		{
 			"table_name": "ptcardno",
 			"type": "QUERY",
-			"query": "select * from ptcardno where (expiredate BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from ptcardno where (expiredate BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "pttype",
@@ -880,7 +880,7 @@
 		{
 			"table_name": "pttypeno",
 			"type": "QUERY",
-			"query": "select * from pttypeno where (begindate BETWEEN '##START_DATE' AND '##END_DATE') or (expiredate BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from pttypeno where (begindate BETWEEN '$start_date' AND '$end_date') or (expiredate BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "pttype_nhso_subinscl",
@@ -890,17 +890,17 @@
 		{
 			"table_name": "rcpt_print",
 			"type": "QUERY",
-			"query": "select * from rcpt_print where (bill_date BETWEEN '##START_DATE' AND '##END_DATE') or (bill_date_time BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from rcpt_print where (bill_date BETWEEN '$start_date' AND '$end_date') or (bill_date_time BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "referin",
 			"type": "QUERY",
-			"query": "select * from referin where (confirm_date BETWEEN '##START_DATE' AND '##END_DATE') or (date_in BETWEEN '##START_DATE' AND '##END_DATE') or (expire_date BETWEEN '##START_DATE' AND '##END_DATE') or (refer_date BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from referin where (confirm_date BETWEEN '$start_date' AND '$end_date') or (date_in BETWEEN '$start_date' AND '$end_date') or (expire_date BETWEEN '$start_date' AND '$end_date') or (refer_date BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "referout",
 			"type": "QUERY",
-			"query": "select * from referout where (confirm_date BETWEEN '##START_DATE' AND '##END_DATE') or (due_date BETWEEN '##START_DATE' AND '##END_DATE') or (expire_date BETWEEN '##START_DATE' AND '##END_DATE') or (refer_begin_time BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (refer_date BETWEEN '##START_DATE' AND '##END_DATE') or (refer_end_time BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (refercheck2_date BETWEEN '##START_DATE' AND '##END_DATE') or (update_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (vstdate BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from referout where (confirm_date BETWEEN '$start_date' AND '$end_date') or (due_date BETWEEN '$start_date' AND '$end_date') or (expire_date BETWEEN '$start_date' AND '$end_date') or (refer_begin_time BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (refer_date BETWEEN '$start_date' AND '$end_date') or (refer_end_time BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (refercheck2_date BETWEEN '$start_date' AND '$end_date') or (update_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (vstdate BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "referout_emergency_type",
@@ -955,7 +955,7 @@
 		{
 			"table_name": "sp_run",
 			"type": "QUERY",
-			"query": "select * from sp_run where (sp_run_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from sp_run where (sp_run_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "sp_use",
@@ -995,7 +995,7 @@
 		{
 			"table_name": "village",
 			"type": "QUERY",
-			"query": "select * from village where (entry_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (out_region_date BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from village where (entry_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (out_region_date BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "village_allurement",
@@ -1020,12 +1020,12 @@
 		{
 			"table_name": "village_drug_store",
 			"type": "QUERY",
-			"query": "select * from village_drug_store where (village_drug_store_register_date BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from village_drug_store where (village_drug_store_register_date BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "village_factory",
 			"type": "QUERY",
-			"query": "select * from village_factory where (village_factory_open_date BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from village_factory where (village_factory_open_date BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "village_farm",
@@ -1035,7 +1035,7 @@
 		{
 			"table_name": "village_healthcare_center",
 			"type": "QUERY",
-			"query": "select * from village_healthcare_center where (village_healthcare_center_open_date BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from village_healthcare_center where (village_healthcare_center_open_date BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "village_news_tower",
@@ -1060,7 +1060,7 @@
 		{
 			"table_name": "village_school",
 			"type": "QUERY",
-			"query": "select * from village_school where (closed_date BETWEEN '##START_DATE' AND '##END_DATE') or (update_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from village_school where (closed_date BETWEEN '$start_date' AND '$end_date') or (update_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "village_store",
@@ -1070,17 +1070,17 @@
 		{
 			"table_name": "village_student",
 			"type": "QUERY",
-			"query": "select * from village_student where (discharge_date BETWEEN '##START_DATE' AND '##END_DATE') or (last_update BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from village_student where (discharge_date BETWEEN '$start_date' AND '$end_date') or (last_update BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "village_student_screen",
 			"type": "QUERY",
-			"query": "select * from village_student_screen where (screen_date BETWEEN '##START_DATE' AND '##END_DATE') or (update_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from village_student_screen where (screen_date BETWEEN '$start_date' AND '$end_date') or (update_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "village_survey_detail",
 			"type": "QUERY",
-			"query": "select * from village_survey_detail where (update_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59')"
+			"query": "select * from village_survey_detail where (update_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59')"
 		},
 		{
 			"table_name": "village_temple",
@@ -1090,7 +1090,7 @@
 		{
 			"table_name": "vn_stat",
 			"type": "QUERY",
-			"query": "select * from vn_stat where (pttype_begin BETWEEN '##START_DATE' AND '##END_DATE') or (pttype_expire BETWEEN '##START_DATE' AND '##END_DATE') or (vstdate BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from vn_stat where (pttype_begin BETWEEN '$start_date' AND '$end_date') or (pttype_expire BETWEEN '$start_date' AND '$end_date') or (vstdate BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "wbc_development_assess",
@@ -1115,7 +1115,7 @@
 		{
 			"table_name": "xray_head",
 			"type": "QUERY",
-			"query": "select * from xray_head where (begin_date BETWEEN '##START_DATE' AND '##END_DATE') or (order_date BETWEEN '##START_DATE' AND '##END_DATE') or (order_date_time BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (report_date BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from xray_head where (begin_date BETWEEN '$start_date' AND '$end_date') or (order_date BETWEEN '$start_date' AND '$end_date') or (order_date_time BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (report_date BETWEEN '$start_date' AND '$end_date')"
 		},
 		{
 			"table_name": "xray_items",
@@ -1125,7 +1125,7 @@
 		{
 			"table_name": "xray_report",
 			"type": "QUERY",
-			"query": "select * from xray_report where (accept_date BETWEEN '##START_DATE' AND '##END_DATE') or (confirm_radiology_date BETWEEN '##START_DATE' AND '##END_DATE') or (confirm_read_date BETWEEN '##START_DATE' AND '##END_DATE') or (examined_date BETWEEN '##START_DATE' AND '##END_DATE') or (order_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (pac_request_datetime BETWEEN '##START_DATE 00:00:00' AND '##END_DATE 23:59:59') or (report_date BETWEEN '##START_DATE' AND '##END_DATE') or (request_date BETWEEN '##START_DATE' AND '##END_DATE')"
+			"query": "select * from xray_report where (accept_date BETWEEN '$start_date' AND '$end_date') or (confirm_radiology_date BETWEEN '$start_date' AND '$end_date') or (confirm_read_date BETWEEN '$start_date' AND '$end_date') or (examined_date BETWEEN '$start_date' AND '$end_date') or (order_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (pac_request_datetime BETWEEN '$start_date 00:00:00' AND '$end_date 23:59:59') or (report_date BETWEEN '$start_date' AND '$end_date') or (request_date BETWEEN '$start_date' AND '$end_date')"
 		}
 	]
 }
